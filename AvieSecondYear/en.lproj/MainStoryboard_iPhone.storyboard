@@ -31,14 +31,14 @@
                                     <segue destination="9DR-IU-qdv" kind="push" id="QhI-wr-UEz"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="family.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="s9b-hB-2OB">
-                                <rect key="frame" x="20" y="143" width="280" height="256"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalCompressionResistancePriority="741" misplaced="YES" image="family.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="s9b-hB-2OB">
+                                <rect key="frame" x="20" y="183" width="280" height="256"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="256" id="reb-rS-Ras"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="Avie's Second Year" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Vy-RG-FcR">
-                                <rect key="frame" x="77" y="114" width="167" height="21"/>
+                                <rect key="frame" x="77" y="153" width="167" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="167" id="kUR-JW-omu"/>
                                 </constraints>
@@ -47,7 +47,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="the most amazing thing I've ever seen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="207" translatesAutoresizingMaskIntoConstraints="NO" id="oux-2h-gDY">
-                                <rect key="frame" x="57" y="407" width="207" height="46"/>
+                                <rect key="frame" x="57" y="446" width="207" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="207" id="FAO-jI-x89"/>
                                     <constraint firstAttribute="height" constant="46" id="kKv-pX-bo5"/>
@@ -61,7 +61,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="s9b-hB-2OB" secondAttribute="trailing" constant="20" symbolic="YES" id="5uF-JB-s1N"/>
                             <constraint firstItem="1Vy-RG-FcR" firstAttribute="centerX" secondItem="s9b-hB-2OB" secondAttribute="centerX" id="S5K-47-jPm"/>
-                            <constraint firstItem="1Vy-RG-FcR" firstAttribute="top" secondItem="yIr-4P-oaS" secondAttribute="top" constant="29" id="WIe-Mn-tCs"/>
+                            <constraint firstItem="1Vy-RG-FcR" firstAttribute="top" secondItem="yIr-4P-oaS" secondAttribute="top" constant="75" id="WIe-Mn-tCs"/>
                             <constraint firstItem="s9b-hB-2OB" firstAttribute="top" secondItem="1Vy-RG-FcR" secondAttribute="bottom" constant="8" symbolic="YES" id="Wrc-ug-CSS"/>
                             <constraint firstItem="oux-2h-gDY" firstAttribute="top" secondItem="s9b-hB-2OB" secondAttribute="bottom" constant="8" symbolic="YES" id="krM-t7-D0g"/>
                             <constraint firstAttribute="bottom" secondItem="8jE-dQ-dfO" secondAttribute="bottom" constant="20" symbolic="YES" id="kzA-92-1DN"/>
@@ -111,7 +111,7 @@
                                                         <constraint firstAttribute="height" constant="41" id="mMy-SA-D6f"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Newborn Avie in the hospital" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXh-W8-Fzr">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="First birthday" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXh-W8-Fzr">
                                                     <rect key="frame" x="112" y="22" width="178" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="178" id="Pfd-un-rSq"/>
@@ -716,7 +716,7 @@
                             <constraint firstAttribute="bottom" secondItem="pCu-84-3DV" secondAttribute="bottom" constant="20" symbolic="YES" id="RPP-ON-xL3"/>
                             <constraint firstItem="pCu-84-3DV" firstAttribute="leading" secondItem="nLi-gu-JF8" secondAttribute="leading" constant="20" symbolic="YES" id="bk8-H0-DBz"/>
                             <constraint firstAttribute="trailing" secondItem="pCu-84-3DV" secondAttribute="trailing" constant="20" symbolic="YES" id="q8O-wA-Emh"/>
-                            <constraint firstItem="6cO-bN-toY" firstAttribute="top" secondItem="nLi-gu-JF8" secondAttribute="top" constant="20" symbolic="YES" id="sbI-Qp-g0k"/>
+                            <constraint firstItem="6cO-bN-toY" firstAttribute="top" secondItem="nLi-gu-JF8" secondAttribute="top" constant="80" id="sbI-Qp-g0k"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="This Month" id="02y-3D-Epe"/>

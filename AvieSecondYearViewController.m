@@ -28,7 +28,7 @@
 {
     [super viewDidLoad];
 
-    _avieImageMarch.image = [UIImage imageNamed:@"avie_burrito_thumb.jpg"];
+    _avieImageMarch.image = [UIImage imageNamed:@"mar_first_birthday_thumb.jpg"];
     _avieImageApril.image = [UIImage imageNamed:@"apr_feeding_thumb.jpg"];
     _avieImageMay.image = [UIImage imageNamed:@"may_bath_thumb.jpg"];
     _avieImageJune.image = [UIImage imageNamed:@"june_dillon_thumb.jpg"];
@@ -38,17 +38,14 @@
     _avieImageOctober.image = [UIImage imageNamed:@"oct_lobster_thumb.jpg"];
     _avieImageNovember.image = [UIImage imageNamed:@"nov_bath_mohawk_thumb.jpg"];
     _avieImageDecember.image = [UIImage imageNamed:@"dec_walker_thumb.jpg"];
-
-    //March description
-    //After a long day of Mommy working very, very, hard, our little Avery was born on a snowy day the 1st of March 2012. When she rolled over after only 2 weeks we knew she would be a "spirited" little girl!
     
     // create array of images for use in detail view controller
     _avieMonthTitles = @[@"March", @"April", @"May", @"June", @"July", @"August", @"September", @"October", @"November", @"December", @"January", @"February"];
-    _avieImages = @[@"avie_burrito.jpg", @"apr_feeding.jpg", @"may_bath.jpg", @"june_dillon_large.jpg", @"jul_hiking_large.jpg", @"aug_hair_large.jpg", @"sep_laugh_yard.jpg", @"oct_lobster_large.jpg", @"nov_bath_mohawk.jpg", @"dec_walker.jpg"
+    _avieImages = @[@"mar_first_birthday.jpg", @"apr_walking_park.jpg", @"may_bath.jpg", @"june_dillon_large.jpg", @"jul_hiking_large.jpg", @"aug_hair_large.jpg", @"sep_laugh_yard.jpg", @"oct_lobster_large.jpg", @"nov_bath_mohawk.jpg", @"dec_walker.jpg"
     ];
     _avieDescriptions = @[
-        @"After a long day of Mommy working very, very, very, hard, our little Avery was born on a snowy day the 1st of March 2012. When she rolled over after only 2 weeks we knew she would be a ""spirited"" little girl!",
-        @"Avie looking up at Daddy. There is absolutely nothing like the first time that your little girl looks up at you.",
+        @"Mommy threw Avie an amazing first birthday party full of family and friends and with the theme of Hungry Little Caterpillar. When it came time for cake our little health nut tried one bite then went back to pasta and veggies.",
+        @"Avie loves being outside so much that as soon as she started walking on her own she took off across the park.",
         @"'Tonight is baaaath night... we're gonna have a paaaarty! A party in the baaaathtub. Cause tonight is baaaath night!' Mommy wrote our bath night song and Avie loves bath night.",
         @"We learned quickly that Avie loves being outside - she's definitely a Colorado girl. We went to Dillon and looked up at the trees and clouds.",
         @"We got the 'Bob' stroller for a reason - to take off road! So here is Mommy and Avie on the Tenderfoot trail near the condo in Dillon. She doesn't like being in the stroller, but is perfectly happy with it if she's on a hike in the mountains.",
