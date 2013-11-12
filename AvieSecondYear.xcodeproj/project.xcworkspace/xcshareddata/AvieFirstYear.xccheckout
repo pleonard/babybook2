@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>14ECE5DD-E4BC-456C-AA01-A5B7ADCFC210</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AvieFirstYear</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>828DA8FE-CFA2-4582-8604-AD3387777B38</key>
+		<string>https://github.com/pleonard/babybook.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AvieFirstYear.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>828DA8FE-CFA2-4582-8604-AD3387777B38</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pleonard/babybook.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>828DA8FE-CFA2-4582-8604-AD3387777B38</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>828DA8FE-CFA2-4582-8604-AD3387777B38</string>
+			<key>IDESourceControlWCCName</key>
+			<string>babybook</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5882B4B16AC3199001333DE /* dec_walker_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5882B4916AC3199001333DE /* dec_walker_thumb.jpg */; };
+		F5882B4C16AC3199001333DE /* dec_walker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5882B4A16AC3199001333DE /* dec_walker.jpg */; };
+		F5A70FB9164EB83E003E0663 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FB8164EB83E003E0663 /* UIKit.framework */; };
+		F5A70FBB164EB83E003E0663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FBA164EB83E003E0663 /* Foundation.framework */; };
+		F5A70FBD164EB83E003E0663 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FBC164EB83E003E0663 /* CoreGraphics.framework */; };
+		F5A70FC3164EB83E003E0663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FC1164EB83E003E0663 /* InfoPlist.strings */; };
+		F5A70FC5164EB83E003E0663 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A70FC4164EB83E003E0663 /* main.m */; };
+		F5A70FC9164EB83F003E0663 /* AvieSecondYearAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A70FC8164EB83F003E0663 /* AvieSecondYearAppDelegate.m */; };
+		F5A70FCB164EB83F003E0663 /* Default2.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FCA164EB83F003E0663 /* Default2.png */; };
+		F5A70FCD164EB83F003E0663 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FCC164EB83F003E0663 /* Default@2x.png */; };
+		F5A70FCF164EB83F003E0663 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FCE164EB83F003E0663 /* Default-568h@2x.png */; };
+		F5A70FD2164EB83F003E0663 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FD0164EB83F003E0663 /* MainStoryboard_iPhone.storyboard */; };
+		F5A70FD5164EB83F003E0663 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FD3164EB83F003E0663 /* MainStoryboard_iPad.storyboard */; };
+		F5A70FE0164EB83F003E0663 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FDF164EB83F003E0663 /* SenTestingKit.framework */; };
+		F5A70FE1164EB83F003E0663 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FB8164EB83E003E0663 /* UIKit.framework */; };
+		F5A70FE2164EB83F003E0663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FBA164EB83E003E0663 /* Foundation.framework */; };
+		F5A70FEA164EB83F003E0663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FE8164EB83F003E0663 /* InfoPlist.strings */; };
+		F5A70FED164EB83F003E0663 /* AvieFirstYearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A70FEC164EB83F003E0663 /* AvieFirstYearTests.m */; };
+		F5A70FF8164EBAE9003E0663 /* AvieSecondYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A70FF7164EBAE9003E0663 /* AvieSecondYearViewController.m */; };
+		F5A70FFD164F0F14003E0663 /* avie_burrito.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FFC164F0F13003E0663 /* avie_burrito.jpg */; };
+		F5A71003164F1564003E0663 /* june_dillon.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5A71002164F1564003E0663 /* june_dillon.JPG */; };
+		F5A7100616501D83003E0663 /* AvieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7100516501D83003E0663 /* AvieDetailViewController.m */; };
+		F5A710081650326C003E0663 /* sep_laugh_yard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A710071650326C003E0663 /* sep_laugh_yard.jpg */; };
+		F5A7100A165130C3003E0663 /* apr_feeding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A71009165130C3003E0663 /* apr_feeding.jpg */; };
+		F5A7100C16513194003E0663 /* may_bath.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5A7100B16513194003E0663 /* may_bath.jpg */; };
+		F5F2E03D165E63B000FD8845 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E035165D3BC900FD8845 /* Default.png */; };
+		F5F2E041166014A200FD8845 /* default_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E040166014A200FD8845 /* default_retina.png */; };
+		F5F2E04B16601B5500FD8845 /* oct_lobster_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E04A16601B5500FD8845 /* oct_lobster_large.jpg */; };
+		F5F2E04D16601BA000FD8845 /* jul_hiking_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E04C16601BA000FD8845 /* jul_hiking_large.jpg */; };
+		F5F2E04F16601C0100FD8845 /* aug_hair_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E04E16601C0100FD8845 /* aug_hair_large.jpg */; };
+		F5F2E051166A7E0300FD8845 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E050166A7E0300FD8845 /* default.png */; };
+		F5F2E053166A7E0F00FD8845 /* default_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E052166A7E0F00FD8845 /* default_retina.png */; };
+		F5F2E057166A800D00FD8845 /* avie_burrito_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E056166A800D00FD8845 /* avie_burrito_thumb.jpg */; };
+		F5F2E059166A80B800FD8845 /* apr_feeding_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E058166A80B800FD8845 /* apr_feeding_thumb.jpg */; };
+		F5F2E05B166A822400FD8845 /* june_dillon_large.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E05A166A822400FD8845 /* june_dillon_large.jpg */; };
+		F5F2E05D166A823200FD8845 /* may_bath_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E05C166A823200FD8845 /* may_bath_thumb.jpg */; };
+		F5F2E05F166A823D00FD8845 /* june_dillon_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E05E166A823D00FD8845 /* june_dillon_thumb.jpg */; };
+		F5F2E061166A830400FD8845 /* jul_hiking_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E060166A830400FD8845 /* jul_hiking_thumb.jpg */; };
+		F5F2E063166A844500FD8845 /* nov_bath_mohawk_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E062166A844500FD8845 /* nov_bath_mohawk_thumb.jpg */; };
+		F5F2E065166A844D00FD8845 /* oct_lobster_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E064166A844D00FD8845 /* oct_lobster_thumb.jpg */; };
+		F5F2E067166A845700FD8845 /* aug_hair_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E066166A845700FD8845 /* aug_hair_thumb.jpg */; };
+		F5F2E069166A846100FD8845 /* sep_laugh_yard_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E068166A846100FD8845 /* sep_laugh_yard_thumb.jpg */; };
+		F5F9BF341659AB0B00EAE85C /* jul_hiking.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */; };
+		F5F9BF371659AB7F00EAE85C /* aug_lins_vic.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */; };
+		F5F9BF391659AC0700EAE85C /* aug_hair.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF381659AC0700EAE85C /* aug_hair.JPG */; };
+		F5F9BF3B1659B30D00EAE85C /* oct_lobster.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF3A1659B30D00EAE85C /* oct_lobster.JPG */; };
+		F5F9BF3D1659B3B400EAE85C /* family.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF3C1659B3B400EAE85C /* family.JPG */; };
+		F5F9BF3F1659B4A800EAE85C /* nov_bath_mohawk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF3E1659B4A800EAE85C /* nov_bath_mohawk.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5A70FE3164EB83F003E0663 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5A70FAB164EB83E003E0663 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5A70FB3164EB83E003E0663;
+			remoteInfo = AvieFirstYear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5882B4916AC3199001333DE /* dec_walker_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dec_walker_thumb.jpg; sourceTree = "<group>"; };
+		F5882B4A16AC3199001333DE /* dec_walker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dec_walker.jpg; sourceTree = "<group>"; };
+		F5A70FB4164EB83E003E0663 /* AvieSecondYear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvieSecondYear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A70FB8164EB83E003E0663 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F5A70FBA164EB83E003E0663 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F5A70FBC164EB83E003E0663 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F5A70FC0164EB83E003E0663 /* AvieSecondYear-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AvieSecondYear-Info.plist"; sourceTree = "<group>"; };
+		F5A70FC2164EB83E003E0663 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5A70FC4164EB83E003E0663 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F5A70FC6164EB83F003E0663 /* AvieSecondYear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "AvieSecondYear-Prefix.pch"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F5A70FC7164EB83F003E0663 /* AvieSecondYearAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AvieSecondYearAppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F5A70FC8164EB83F003E0663 /* AvieSecondYearAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AvieSecondYearAppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F5A70FCA164EB83F003E0663 /* Default2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default2.png; sourceTree = "<group>"; };
+		F5A70FCC164EB83F003E0663 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F5A70FCE164EB83F003E0663 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F5A70FD1164EB83F003E0663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F5A70FD4164EB83F003E0663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F5A70FDE164EB83F003E0663 /* AvieSecondYearTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvieSecondYearTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A70FDF164EB83F003E0663 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F5A70FE7164EB83F003E0663 /* AvieSecondYearTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AvieSecondYearTests-Info.plist"; sourceTree = "<group>"; };
+		F5A70FE9164EB83F003E0663 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F5A70FEB164EB83F003E0663 /* AvieFirstYearTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvieFirstYearTests.h; sourceTree = "<group>"; };
+		F5A70FEC164EB83F003E0663 /* AvieFirstYearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvieFirstYearTests.m; sourceTree = "<group>"; };
+		F5A70FF6164EBAE9003E0663 /* AvieSecondYearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AvieSecondYearViewController.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		F5A70FF7164EBAE9003E0663 /* AvieSecondYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AvieSecondYearViewController.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F5A70FFC164F0F13003E0663 /* avie_burrito.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avie_burrito.jpg; sourceTree = "<group>"; };
+		F5A71002164F1564003E0663 /* june_dillon.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = june_dillon.JPG; sourceTree = "<group>"; };
+		F5A7100416501D83003E0663 /* AvieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvieDetailViewController.h; sourceTree = "<group>"; };
+		F5A7100516501D83003E0663 /* AvieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AvieDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		F5A710071650326C003E0663 /* sep_laugh_yard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sep_laugh_yard.jpg; sourceTree = "<group>"; };
+		F5A71009165130C3003E0663 /* apr_feeding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apr_feeding.jpg; sourceTree = "<group>"; };
+		F5A7100B16513194003E0663 /* may_bath.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = may_bath.jpg; sourceTree = "<group>"; };
+		F5F2E035165D3BC900FD8845 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F5F2E040166014A200FD8845 /* default_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_retina.png; sourceTree = "<group>"; };
+		F5F2E04A16601B5500FD8845 /* oct_lobster_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_lobster_large.jpg; sourceTree = "<group>"; };
+		F5F2E04C16601BA000FD8845 /* jul_hiking_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_hiking_large.jpg; sourceTree = "<group>"; };
+		F5F2E04E16601C0100FD8845 /* aug_hair_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_hair_large.jpg; sourceTree = "<group>"; };
+		F5F2E050166A7E0300FD8845 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		F5F2E052166A7E0F00FD8845 /* default_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_retina.png; sourceTree = "<group>"; };
+		F5F2E056166A800D00FD8845 /* avie_burrito_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avie_burrito_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E058166A80B800FD8845 /* apr_feeding_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apr_feeding_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E05A166A822400FD8845 /* june_dillon_large.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = june_dillon_large.jpg; sourceTree = "<group>"; };
+		F5F2E05C166A823200FD8845 /* may_bath_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = may_bath_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E05E166A823D00FD8845 /* june_dillon_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = june_dillon_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E060166A830400FD8845 /* jul_hiking_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_hiking_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E062166A844500FD8845 /* nov_bath_mohawk_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nov_bath_mohawk_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E064166A844D00FD8845 /* oct_lobster_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_lobster_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E066166A845700FD8845 /* aug_hair_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_hair_thumb.jpg; sourceTree = "<group>"; };
+		F5F2E068166A846100FD8845 /* sep_laugh_yard_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sep_laugh_yard_thumb.jpg; sourceTree = "<group>"; };
+		F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_hiking.JPG; sourceTree = "<group>"; };
+		F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_lins_vic.JPG; sourceTree = "<group>"; };
+		F5F9BF381659AC0700EAE85C /* aug_hair.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_hair.JPG; sourceTree = "<group>"; };
+		F5F9BF3A1659B30D00EAE85C /* oct_lobster.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_lobster.JPG; sourceTree = "<group>"; };
+		F5F9BF3C1659B3B400EAE85C /* family.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = family.JPG; sourceTree = "<group>"; };
+		F5F9BF3E1659B4A800EAE85C /* nov_bath_mohawk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nov_bath_mohawk.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5A70FB1164EB83E003E0663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A70FB9164EB83E003E0663 /* UIKit.framework in Frameworks */,
+				F5A70FBB164EB83E003E0663 /* Foundation.framework in Frameworks */,
+				F5A70FBD164EB83E003E0663 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A70FDA164EB83F003E0663 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A70FE0164EB83F003E0663 /* SenTestingKit.framework in Frameworks */,
+				F5A70FE1164EB83F003E0663 /* UIKit.framework in Frameworks */,
+				F5A70FE2164EB83F003E0663 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5A70FA9164EB83E003E0663 = {
+			isa = PBXGroup;
+			children = (
+				F5F2E040166014A200FD8845 /* default_retina.png */,
+				F5F2E035165D3BC900FD8845 /* Default.png */,
+				F5A70FBE164EB83E003E0663 /* AvieSecondYear */,
+				F5A70FE5164EB83F003E0663 /* AvieFirstYearTests */,
+				F5A70FB7164EB83E003E0663 /* Frameworks */,
+				F5A70FB5164EB83E003E0663 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5A70FB5164EB83E003E0663 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5A70FB4164EB83E003E0663 /* AvieSecondYear.app */,
+				F5A70FDE164EB83F003E0663 /* AvieSecondYearTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5A70FB7164EB83E003E0663 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5A70FB8164EB83E003E0663 /* UIKit.framework */,
+				F5A70FBA164EB83E003E0663 /* Foundation.framework */,
+				F5A70FBC164EB83E003E0663 /* CoreGraphics.framework */,
+				F5A70FDF164EB83F003E0663 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5A70FBE164EB83E003E0663 /* AvieSecondYear */ = {
+			isa = PBXGroup;
+			children = (
+				F5A70FC7164EB83F003E0663 /* AvieSecondYearAppDelegate.h */,
+				F5A70FC8164EB83F003E0663 /* AvieSecondYearAppDelegate.m */,
+				F5A70FD0164EB83F003E0663 /* MainStoryboard_iPhone.storyboard */,
+				F5A70FD3164EB83F003E0663 /* MainStoryboard_iPad.storyboard */,
+				F5A70FF6164EBAE9003E0663 /* AvieSecondYearViewController.h */,
+				F5A70FF7164EBAE9003E0663 /* AvieSecondYearViewController.m */,
+				F5A7100416501D83003E0663 /* AvieDetailViewController.h */,
+				F5A7100516501D83003E0663 /* AvieDetailViewController.m */,
+				F5A70FBF164EB83E003E0663 /* Supporting Files */,
+			);
+			path = AvieSecondYear;
+			sourceTree = "<group>";
+		};
+		F5A70FBF164EB83E003E0663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5F2E052166A7E0F00FD8845 /* default_retina.png */,
+				F5F2E050166A7E0300FD8845 /* default.png */,
+				F5A70FFC164F0F13003E0663 /* avie_burrito.jpg */,
+				F5F2E056166A800D00FD8845 /* avie_burrito_thumb.jpg */,
+				F5A71009165130C3003E0663 /* apr_feeding.jpg */,
+				F5F2E058166A80B800FD8845 /* apr_feeding_thumb.jpg */,
+				F5A7100B16513194003E0663 /* may_bath.jpg */,
+				F5F2E05C166A823200FD8845 /* may_bath_thumb.jpg */,
+				F5A71002164F1564003E0663 /* june_dillon.JPG */,
+				F5F2E05A166A822400FD8845 /* june_dillon_large.jpg */,
+				F5F2E05E166A823D00FD8845 /* june_dillon_thumb.jpg */,
+				F5F9BF331659AB0B00EAE85C /* jul_hiking.JPG */,
+				F5F2E04C16601BA000FD8845 /* jul_hiking_large.jpg */,
+				F5F2E060166A830400FD8845 /* jul_hiking_thumb.jpg */,
+				F5F9BF361659AB7F00EAE85C /* aug_lins_vic.JPG */,
+				F5F9BF381659AC0700EAE85C /* aug_hair.JPG */,
+				F5F2E04E16601C0100FD8845 /* aug_hair_large.jpg */,
+				F5F2E066166A845700FD8845 /* aug_hair_thumb.jpg */,
+				F5A710071650326C003E0663 /* sep_laugh_yard.jpg */,
+				F5F2E068166A846100FD8845 /* sep_laugh_yard_thumb.jpg */,
+				F5F9BF3A1659B30D00EAE85C /* oct_lobster.JPG */,
+				F5F2E04A16601B5500FD8845 /* oct_lobster_large.jpg */,
+				F5F2E064166A844D00FD8845 /* oct_lobster_thumb.jpg */,
+				F5F9BF3E1659B4A800EAE85C /* nov_bath_mohawk.jpg */,
+				F5F2E062166A844500FD8845 /* nov_bath_mohawk_thumb.jpg */,
+				F5882B4916AC3199001333DE /* dec_walker_thumb.jpg */,
+				F5882B4A16AC3199001333DE /* dec_walker.jpg */,
+				F5F9BF3C1659B3B400EAE85C /* family.JPG */,
+				F5A70FC0164EB83E003E0663 /* AvieSecondYear-Info.plist */,
+				F5A70FC1164EB83E003E0663 /* InfoPlist.strings */,
+				F5A70FC4164EB83E003E0663 /* main.m */,
+				F5A70FC6164EB83F003E0663 /* AvieSecondYear-Prefix.pch */,
+				F5A70FCA164EB83F003E0663 /* Default2.png */,
+				F5A70FCC164EB83F003E0663 /* Default@2x.png */,
+				F5A70FCE164EB83F003E0663 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5A70FE5164EB83F003E0663 /* AvieFirstYearTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5A70FEB164EB83F003E0663 /* AvieFirstYearTests.h */,
+				F5A70FEC164EB83F003E0663 /* AvieFirstYearTests.m */,
+				F5A70FE6164EB83F003E0663 /* Supporting Files */,
+			);
+			path = AvieFirstYearTests;
+			sourceTree = "<group>";
+		};
+		F5A70FE6164EB83F003E0663 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5A70FE7164EB83F003E0663 /* AvieSecondYearTests-Info.plist */,
+				F5A70FE8164EB83F003E0663 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5A70FB3164EB83E003E0663 /* AvieSecondYear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A70FF0164EB83F003E0663 /* Build configuration list for PBXNativeTarget "AvieSecondYear" */;
+			buildPhases = (
+				F5A70FB0164EB83E003E0663 /* Sources */,
+				F5A70FB1164EB83E003E0663 /* Frameworks */,
+				F5A70FB2164EB83E003E0663 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvieSecondYear;
+			productName = AvieFirstYear;
+			productReference = F5A70FB4164EB83E003E0663 /* AvieSecondYear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5A70FDD164EB83F003E0663 /* AvieSecondYearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5A70FF3164EB83F003E0663 /* Build configuration list for PBXNativeTarget "AvieSecondYearTests" */;
+			buildPhases = (
+				F5A70FD9164EB83F003E0663 /* Sources */,
+				F5A70FDA164EB83F003E0663 /* Frameworks */,
+				F5A70FDB164EB83F003E0663 /* Resources */,
+				F5A70FDC164EB83F003E0663 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5A70FE4164EB83F003E0663 /* PBXTargetDependency */,
+			);
+			name = AvieSecondYearTests;
+			productName = AvieFirstYearTests;
+			productReference = F5A70FDE164EB83F003E0663 /* AvieSecondYearTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5A70FAB164EB83E003E0663 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AvieSecondYear;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Patrick Leonard";
+			};
+			buildConfigurationList = F5A70FAE164EB83E003E0663 /* Build configuration list for PBXProject "AvieSecondYear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5A70FA9164EB83E003E0663;
+			productRefGroup = F5A70FB5164EB83E003E0663 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5A70FB3164EB83E003E0663 /* AvieSecondYear */,
+				F5A70FDD164EB83F003E0663 /* AvieSecondYearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5A70FB2164EB83E003E0663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A70FC3164EB83E003E0663 /* InfoPlist.strings in Resources */,
+				F5A70FCB164EB83F003E0663 /* Default2.png in Resources */,
+				F5A70FCD164EB83F003E0663 /* Default@2x.png in Resources */,
+				F5A70FCF164EB83F003E0663 /* Default-568h@2x.png in Resources */,
+				F5A70FD2164EB83F003E0663 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F5A70FD5164EB83F003E0663 /* MainStoryboard_iPad.storyboard in Resources */,
+				F5A70FFD164F0F14003E0663 /* avie_burrito.jpg in Resources */,
+				F5A71003164F1564003E0663 /* june_dillon.JPG in Resources */,
+				F5A710081650326C003E0663 /* sep_laugh_yard.jpg in Resources */,
+				F5A7100A165130C3003E0663 /* apr_feeding.jpg in Resources */,
+				F5A7100C16513194003E0663 /* may_bath.jpg in Resources */,
+				F5F9BF341659AB0B00EAE85C /* jul_hiking.JPG in Resources */,
+				F5F9BF371659AB7F00EAE85C /* aug_lins_vic.JPG in Resources */,
+				F5F9BF391659AC0700EAE85C /* aug_hair.JPG in Resources */,
+				F5F9BF3B1659B30D00EAE85C /* oct_lobster.JPG in Resources */,
+				F5F9BF3D1659B3B400EAE85C /* family.JPG in Resources */,
+				F5F9BF3F1659B4A800EAE85C /* nov_bath_mohawk.jpg in Resources */,
+				F5F2E03D165E63B000FD8845 /* Default.png in Resources */,
+				F5F2E041166014A200FD8845 /* default_retina.png in Resources */,
+				F5F2E04B16601B5500FD8845 /* oct_lobster_large.jpg in Resources */,
+				F5F2E04D16601BA000FD8845 /* jul_hiking_large.jpg in Resources */,
+				F5F2E04F16601C0100FD8845 /* aug_hair_large.jpg in Resources */,
+				F5F2E051166A7E0300FD8845 /* default.png in Resources */,
+				F5F2E053166A7E0F00FD8845 /* default_retina.png in Resources */,
+				F5F2E057166A800D00FD8845 /* avie_burrito_thumb.jpg in Resources */,
+				F5F2E059166A80B800FD8845 /* apr_feeding_thumb.jpg in Resources */,
+				F5F2E05B166A822400FD8845 /* june_dillon_large.jpg in Resources */,
+				F5F2E05D166A823200FD8845 /* may_bath_thumb.jpg in Resources */,
+				F5F2E05F166A823D00FD8845 /* june_dillon_thumb.jpg in Resources */,
+				F5F2E061166A830400FD8845 /* jul_hiking_thumb.jpg in Resources */,
+				F5F2E063166A844500FD8845 /* nov_bath_mohawk_thumb.jpg in Resources */,
+				F5F2E065166A844D00FD8845 /* oct_lobster_thumb.jpg in Resources */,
+				F5F2E067166A845700FD8845 /* aug_hair_thumb.jpg in Resources */,
+				F5F2E069166A846100FD8845 /* sep_laugh_yard_thumb.jpg in Resources */,
+				F5882B4B16AC3199001333DE /* dec_walker_thumb.jpg in Resources */,
+				F5882B4C16AC3199001333DE /* dec_walker.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A70FDB164EB83F003E0663 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A70FEA164EB83F003E0663 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F5A70FDC164EB83F003E0663 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5A70FB0164EB83E003E0663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A70FC5164EB83E003E0663 /* main.m in Sources */,
+				F5A70FC9164EB83F003E0663 /* AvieSecondYearAppDelegate.m in Sources */,
+				F5A70FF8164EBAE9003E0663 /* AvieSecondYearViewController.m in Sources */,
+				F5A7100616501D83003E0663 /* AvieDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5A70FD9164EB83F003E0663 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A70FED164EB83F003E0663 /* AvieFirstYearTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5A70FE4164EB83F003E0663 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5A70FB3164EB83E003E0663 /* AvieSecondYear */;
+			targetProxy = F5A70FE3164EB83F003E0663 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5A70FC1164EB83E003E0663 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A70FC2164EB83E003E0663 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F5A70FD0164EB83F003E0663 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A70FD1164EB83F003E0663 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F5A70FD3164EB83F003E0663 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A70FD4164EB83F003E0663 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F5A70FE8164EB83F003E0663 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5A70FE9164EB83F003E0663 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5A70FEE164EB83F003E0663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5A70FEF164EB83F003E0663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5A70FF1164EB83F003E0663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvieSecondYear/AvieSecondYear-Prefix.pch";
+				INFOPLIST_FILE = "AvieSecondYear/AvieSecondYear-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = AvieSecondYear;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F5A70FF2164EB83F003E0663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvieSecondYear/AvieSecondYear-Prefix.pch";
+				INFOPLIST_FILE = "AvieSecondYear/AvieSecondYear-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = AvieSecondYear;
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F5A70FF4164EB83F003E0663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AvieFirstYear.app/AvieFirstYear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvieFirstYear/AvieFirstYear-Prefix.pch";
+				INFOPLIST_FILE = "AvieFirstYearTests/AvieSecondYearTests-Info.plist";
+				PRODUCT_NAME = AvieSecondYearTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F5A70FF5164EB83F003E0663 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AvieFirstYear.app/AvieFirstYear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AvieFirstYear/AvieFirstYear-Prefix.pch";
+				INFOPLIST_FILE = "AvieFirstYearTests/AvieSecondYearTests-Info.plist";
+				PRODUCT_NAME = AvieSecondYearTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5A70FAE164EB83E003E0663 /* Build configuration list for PBXProject "AvieSecondYear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A70FEE164EB83F003E0663 /* Debug */,
+				F5A70FEF164EB83F003E0663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A70FF0164EB83F003E0663 /* Build configuration list for PBXNativeTarget "AvieSecondYear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A70FF1164EB83F003E0663 /* Debug */,
+				F5A70FF2164EB83F003E0663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5A70FF3164EB83F003E0663 /* Build configuration list for PBXNativeTarget "AvieSecondYearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5A70FF4164EB83F003E0663 /* Debug */,
+				F5A70FF5164EB83F003E0663 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5A70FAB164EB83E003E0663 /* Project object */;
+}
