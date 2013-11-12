@@ -77,16 +77,16 @@
             </objects>
             <point key="canvasLocation" x="-73" y="44"/>
         </scene>
-        <!--Avie First Year View Controller - Avie's First Year!-->
+        <!--Avie Second Year View Controller - Avie's Second Year!-->
         <scene sceneID="F1W-KU-pXe">
             <objects>
-                <tableViewController id="9DR-IU-qdv" customClass="AvieFirstYearViewController" sceneMemberID="viewController">
+                <tableViewController id="9DR-IU-qdv" customClass="AvieSecondYearViewController" sceneMemberID="viewController">
                     <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="SPN-6T-gIG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
-                            <tableViewSection headerTitle="First 3 Months (Mar-May)" id="BE2-1E-lkb">
+                            <tableViewSection headerTitle="Walking and Talking (Mar-May)" id="BE2-1E-lkb">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="5e9-d1-MrI">
                                         <rect key="frame" x="0.0" y="119" width="320" height="44"/>
@@ -662,7 +662,7 @@
                             <outlet property="delegate" destination="9DR-IU-qdv" id="Vw5-Ik-RKQ"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Avie's First Year!" id="Cuw-LL-HCo"/>
+                    <navigationItem key="navigationItem" title="Avie's Second Year!" id="Cuw-LL-HCo"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="avieImageApril" destination="hsq-FA-lBi" id="q44-Pn-W5E"/>
