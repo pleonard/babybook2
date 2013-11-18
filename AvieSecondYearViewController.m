@@ -32,7 +32,7 @@
     _avieImageApril.image = [UIImage imageNamed:@"apr_walking_park_thumb.jpg"];
     _avieImageMay.image = [UIImage imageNamed:@"may_comedy_thumb.jpg"];
     _avieImageJune.image = [UIImage imageNamed:@"jun_marigolds_thumb.jpg"];
-    _avieImageJuly.image = [UIImage imageNamed:@"jul_hiking_thumb.jpg"];
+    _avieImageJuly.image = [UIImage imageNamed:@"jul_ellie_birthday_thumb.jpg"];
     _avieImageAugust.image = [UIImage imageNamed:@"aug_hair_thumb.jpg"];
     _avieImageSeptember.image = [UIImage imageNamed:@"sep_laugh_yard_thumb.jpg"];
     _avieImageOctober.image = [UIImage imageNamed:@"oct_lobster_thumb.jpg"];
@@ -41,19 +41,19 @@
     
     // create array of images for use in detail view controller
     _avieMonthTitles = @[@"March", @"April", @"May", @"June", @"July", @"August", @"September", @"October", @"November", @"December", @"January", @"February"];
-    _avieImages = @[@"mar_first_birthday.jpg", @"apr_walking_park.jpg", @"may_comedy.jpg", @"jun_marigolds.jpg", @"jul_hiking_large.jpg", @"aug_hair_large.jpg", @"sep_laugh_yard.jpg", @"oct_lobster_large.jpg", @"nov_bath_mohawk.jpg", @"dec_walker.jpg"
+    _avieImages = @[@"mar_first_birthday.jpg", @"apr_walking_park.jpg", @"may_comedy.jpg", @"jun_marigolds.jpg", @"jul_ellie_birthday.jpg", @"aug_hair_large.jpg", @"sep_laugh_yard.jpg", @"oct_lobster_large.jpg", @"nov_bath_mohawk.jpg", @"dec_walker.jpg"
     ];
     _avieDescriptions = @[
-        @"Mommy threw Avie an amazing first birthday party full of family and friends and with the theme of Hungry Little Caterpillar. When it came time for cake our little health nut tried one bite then went back to pasta and veggies.",
+        @"Mommy threw Avie an amazing first birthday party full of family and friends and with the theme of Hungry Little Caterpillar. When it came time for cake, our little health nut tried one bite then went back to her pasta and veggies.",
         @"Avie loves being outside so much that as soon as she started walking on her own she took off across the park. We were so surprised that she was 30 yards away before Mommy started chasing after.",
         @"Early on Avie figured out that she is hilarious and she loves cracking Mommy and Daddy up.",
         @"Marigolds, beware! Avie loves the smell of marigolds and spent the whole summer picking and smelling them. Good thing they're cheap and we grew a lot of them.",
-        @"We got the 'Bob' stroller for a reason - to take off road! So here is Mommy and Avie on the Tenderfoot trail near the condo in Dillon. She doesn't like being in the stroller, but is perfectly happy with it if she's on a hike in the mountains.",
-        @"Avie's hair became kind of famous for sticking straight up on it's own. Daddy called it her '80's punk rock do'. As her hair got longer it started to lay down and she traded her spikes in for a side ponytail.",
-        @"Soon after she started to smile, she started to laugh. Both are infectous - when Avie laughs you can't help but laugh too.",
-        @"Mommy had been talking about dressing up Avie as a lobster in a pot for Halloween for a long time. She wasn't kidding. Not sure Avie loved it but she did look cute. Here are Avie and Kalyn before we went to the Gaylord St. festival with Des & Bri.",
-        @"Avie still loves bath night! And Mommy and Daddy think the mohawk is pretty hilarious.",
-        @"Minutes before Daddy had to go to the airport, Avie stood up with the walker and walked across the room!  It was so exciting - Avie may have been the most excited of all."
+        @"We headed to Austin to celebrate cousin Ellie's first birthday. Avie and Ellie bonded, and now when Avie makes a pretend phone call she says 'Hi Ellie'.",
+        @"aug",
+        @"sept",
+        @"oct - ducks",
+        @"nov",
+        @"dec"
     ];
 
     // Uncomment the following line to preserve selection between presentations.

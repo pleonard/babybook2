@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		989B4E5E1839C8BE0025FD9E /* jul_ellie_birthday_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 989B4E5C1839C8BE0025FD9E /* jul_ellie_birthday_thumb.jpg */; };
+		989B4E5F1839C8BE0025FD9E /* jul_ellie_birthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 989B4E5D1839C8BE0025FD9E /* jul_ellie_birthday.jpg */; };
 		98F66AA71832DD1500F5B095 /* apr_walking_park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66AA61832DD1500F5B095 /* apr_walking_park.jpg */; };
 		98F66AAA1832DD3A00F5B095 /* mar_first_birthday_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66AA81832DD3A00F5B095 /* mar_first_birthday_thumb.jpg */; };
 		98F66AAD1832DD8900F5B095 /* apr_walking_park_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66AAC1832DD8900F5B095 /* apr_walking_park_thumb.jpg */; };
@@ -52,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		989B4E5C1839C8BE0025FD9E /* jul_ellie_birthday_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_ellie_birthday_thumb.jpg; sourceTree = "<group>"; };
+		989B4E5D1839C8BE0025FD9E /* jul_ellie_birthday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_ellie_birthday.jpg; sourceTree = "<group>"; };
 		98F66AA61832DD1500F5B095 /* apr_walking_park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apr_walking_park.jpg; sourceTree = "<group>"; };
 		98F66AA81832DD3A00F5B095 /* mar_first_birthday_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mar_first_birthday_thumb.jpg; sourceTree = "<group>"; };
 		98F66AAC1832DD8900F5B095 /* apr_walking_park_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apr_walking_park_thumb.jpg; sourceTree = "<group>"; };
@@ -168,6 +172,8 @@
 		F5A70FBF164EB83E003E0663 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				989B4E5C1839C8BE0025FD9E /* jul_ellie_birthday_thumb.jpg */,
+				989B4E5D1839C8BE0025FD9E /* jul_ellie_birthday.jpg */,
 				98F66ABA183490D900F5B095 /* paige_avie_austin.jpg */,
 				98F66AB618348D9C00F5B095 /* jun_marigolds_thumb.jpg */,
 				98F66AB718348D9C00F5B095 /* jun_marigolds.jpg */,
@@ -284,7 +290,9 @@
 			files = (
 				F5A70FC3164EB83E003E0663 /* InfoPlist.strings in Resources */,
 				F5A70FCB164EB83F003E0663 /* Default2.png in Resources */,
+				989B4E5E1839C8BE0025FD9E /* jul_ellie_birthday_thumb.jpg in Resources */,
 				F5A70FCD164EB83F003E0663 /* Default@2x.png in Resources */,
+				989B4E5F1839C8BE0025FD9E /* jul_ellie_birthday.jpg in Resources */,
 				98F66AB818348D9C00F5B095 /* jun_marigolds_thumb.jpg in Resources */,
 				F5A70FCF164EB83F003E0663 /* Default-568h@2x.png in Resources */,
 				F5A70FD2164EB83F003E0663 /* MainStoryboard_iPhone.storyboard in Resources */,
