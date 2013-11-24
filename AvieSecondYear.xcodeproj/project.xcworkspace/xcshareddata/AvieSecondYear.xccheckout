@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D5E4D465-019F-4FF5-99AC-1273B68E95A7</string>
+	<string>D2046AAC-F696-4753-9A66-145EB613A32C</string>
 	<key>IDESourceControlProjectName</key>
 	<string>AvieSecondYear</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>AA38A79F-C2C4-4411-A275-D4D258C8BF61</key>
-		<string>https://github.com/pleonard/babybook.git</string>
+		<key>FD38C7D6-2F1D-4F14-B70F-57C9932D34B3</key>
+		<string>https://github.com/pleonard/babybook2.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>AvieSecondYear.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>AA38A79F-C2C4-4411-A275-D4D258C8BF61</key>
+		<key>FD38C7D6-2F1D-4F14-B70F-57C9932D34B3</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/pleonard/babybook.git</string>
+	<string>https://github.com/pleonard/babybook2.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>AA38A79F-C2C4-4411-A275-D4D258C8BF61</string>
+	<string>FD38C7D6-2F1D-4F14-B70F-57C9932D34B3</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>AA38A79F-C2C4-4411-A275-D4D258C8BF61</string>
+			<string>FD38C7D6-2F1D-4F14-B70F-57C9932D34B3</string>
 			<key>IDESourceControlWCCName</key>
 			<string>babybook2</string>
 		</dict>
