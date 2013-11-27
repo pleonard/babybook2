@@ -33,26 +33,26 @@
     _avieImageMay.image = [UIImage imageNamed:@"may_comedy_thumb.jpg"];
     _avieImageJune.image = [UIImage imageNamed:@"jun_marigolds_thumb.jpg"];
     _avieImageJuly.image = [UIImage imageNamed:@"jul_ellie_birthday_thumb.jpg"];
-    _avieImageAugust.image = [UIImage imageNamed:@"aug_hair_thumb.jpg"];
-    _avieImageSeptember.image = [UIImage imageNamed:@"sep_laugh_yard_thumb.jpg"];
-    _avieImageOctober.image = [UIImage imageNamed:@"oct_lobster_thumb.jpg"];
-    _avieImageNovember.image = [UIImage imageNamed:@"nov_bath_mohawk_thumb.jpg"];
-    _avieImageDecember.image = [UIImage imageNamed:@"dec_walker_thumb.jpg"];
+    _avieImageAugust.image = [UIImage imageNamed:@"aug_.jpg"];
+    _avieImageSeptember.image = [UIImage imageNamed:@"sep_thumb.jpg"];
+    _avieImageOctober.image = [UIImage imageNamed:@"oct_waving_thumb.jpg"];
+    _avieImageNovember.image = [UIImage imageNamed:@"nov_pigtails_thumb.jpg"];
+    _avieImageDecember.image = [UIImage imageNamed:@"dec_thumb.jpg"];
     
     // create array of images for use in detail view controller
     _avieMonthTitles = @[@"March", @"April", @"May", @"June", @"July", @"August", @"September", @"October", @"November", @"December", @"January", @"February"];
-    _avieImages = @[@"mar_first_birthday.jpg", @"apr_walking_park.jpg", @"may_comedy.jpg", @"jun_marigolds.jpg", @"jul_ellie_birthday.jpg", @"aug_hair_large.jpg", @"sep_laugh_yard.jpg", @"oct_lobster_large.jpg", @"nov_bath_mohawk.jpg", @"dec_walker.jpg"
+    _avieImages = @[@"mar_first_birthday.jpg", @"apr_walking_park.jpg", @"may_comedy.jpg", @"jun_marigolds.jpg", @"jul_ellie_birthday.jpg", @"aug_.jpg", @"sep_.jpg", @"oct_waving.jpg", @"nov_pigtails.jpg", @"dec_.jpg"
     ];
     _avieDescriptions = @[
         @"Mommy threw Avie an amazing first birthday party full of family and friends and with the theme of Hungry Little Caterpillar. When it came time for cake, our little health nut tried one bite then went back to her pasta and veggies.",
         @"Avie loves being outside so much that as soon as she started walking on her own she took off across the park. We were so surprised that she was 30 yards away before Mommy started chasing after.",
-        @"Early on Avie figured out that she is hilarious and she loves cracking Mommy and Daddy up.",
+        @"Early on Avie figured out that she is hilarious and she loves cracking Mommy and Daddy up. After the sunglasses came the famous 'Smooshyface'.",
         @"Marigolds, beware! Avie loves the smell of marigolds and spent the whole summer picking and smelling them. Good thing they're cheap and we grew a lot of them.",
         @"We headed to Austin to celebrate cousin Ellie's first birthday. Avie and Ellie bonded, and now when Avie makes a pretend phone call she says 'Hi Ellie'.",
         @"aug",
         @"sept",
-        @"oct - ducks",
-        @"nov",
+        @"Leaving Avie to go to work every morning is hard but watching her wave goodbye is the best send off ever. Even when it's cold out, she comes outside to wave. It's just the best.",
+        @"It's exciting to see Avie growing and learning so fast, but sometimes it feels a little too fast. As she grows to become the amazing person we know she is going to be, Mommy and Daddy will always think of Avie as the sweet, smart, funny little girl in pigtails.",
         @"dec"
     ];
 
