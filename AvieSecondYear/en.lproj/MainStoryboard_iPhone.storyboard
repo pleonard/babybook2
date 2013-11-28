@@ -86,7 +86,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                         <sections>
-                            <tableViewSection headerTitle="Walking and Talking (Mar-May)" id="BE2-1E-lkb">
+                            <tableViewSection headerTitle="MONTH 13-15 (Mar-May)" id="BE2-1E-lkb">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="5e9-d1-MrI">
                                         <rect key="frame" x="0.0" y="119" width="320" height="44"/>
@@ -231,7 +231,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Month 4-6 (Jun-Aug)" id="OPP-qZ-fBq">
+                            <tableViewSection headerTitle="Month 16-18 (Jun-Aug)" id="OPP-qZ-fBq">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="D1x-S1-P8M">
                                         <rect key="frame" x="0.0" y="299" width="320" height="44"/>
@@ -350,7 +350,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="foo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3p-Lh-34I">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hiking!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d3p-Lh-34I">
                                                     <rect key="frame" x="112" y="20" width="178" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="yi3-kO-B4f"/>
@@ -376,7 +376,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Month 7-9 (Sep-Nov)" id="1yk-zw-lLQ">
+                            <tableViewSection headerTitle="Month 19-21 (Sep-Nov)" id="1yk-zw-lLQ">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="C8t-XW-ONy">
                                         <rect key="frame" x="0.0" y="479" width="320" height="44"/>
@@ -398,7 +398,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Smooshy face" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fi3-l4-BsE">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Wash Park ducks" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fi3-l4-BsE">
                                                     <rect key="frame" x="112" y="21" width="178" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="178" id="EQJ-Xm-dHy"/>
@@ -519,7 +519,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Month 10-12 (Dec-Feb)" id="XVe-d2-79l">
+                            <tableViewSection headerTitle="Month 22-24 (Dec-Feb)" id="XVe-d2-79l">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="RWI-kB-EtX">
                                         <rect key="frame" x="0.0" y="659" width="320" height="44"/>
@@ -544,7 +544,7 @@
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </label>
-                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="First steps" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPw-32-E0d">
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="?" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPw-32-E0d">
                                                     <rect key="frame" x="112" y="21" width="178" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="chy-SX-shZ"/>

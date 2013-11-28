@@ -10,7 +10,6 @@
 		989B4E5E1839C8BE0025FD9E /* jul_ellie_birthday_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 989B4E5C1839C8BE0025FD9E /* jul_ellie_birthday_thumb.jpg */; };
 		989B4E5F1839C8BE0025FD9E /* jul_ellie_birthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 989B4E5D1839C8BE0025FD9E /* jul_ellie_birthday.jpg */; };
 		98F66AA71832DD1500F5B095 /* apr_walking_park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66AA61832DD1500F5B095 /* apr_walking_park.jpg */; };
-		98F66AAA1832DD3A00F5B095 /* mar_first_birthday_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66AA81832DD3A00F5B095 /* mar_first_birthday_thumb.jpg */; };
 		98F66AAD1832DD8900F5B095 /* apr_walking_park_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66AAC1832DD8900F5B095 /* apr_walking_park_thumb.jpg */; };
 		98F66AB11832DF2000F5B095 /* mar_first_birthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66AB01832DF2000F5B095 /* mar_first_birthday.jpg */; };
 		98F66AB41832E0B800F5B095 /* may_comedy_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66AB21832E0B800F5B095 /* may_comedy_thumb.jpg */; };
@@ -22,6 +21,12 @@
 		F57AC9B518430733005E4926 /* oct_waving.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B318430733005E4926 /* oct_waving.jpg */; };
 		F57AC9B818430A96005E4926 /* nov_pigtails_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B618430A96005E4926 /* nov_pigtails_thumb.jpg */; };
 		F57AC9B918430A96005E4926 /* nov_pigtails.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B718430A96005E4926 /* nov_pigtails.jpg */; };
+		F57AC9BB1846AF48005E4926 /* smooshyface.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9BA1846AF48005E4926 /* smooshyface.mp4 */; };
+		F57AC9C31846E30F005E4926 /* aug_dillon_hiking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9C21846E30F005E4926 /* aug_dillon_hiking.jpg */; };
+		F57AC9C51846E358005E4926 /* aug_dillon_hiking_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9C41846E358005E4926 /* aug_dillon_hiking_thumb.jpg */; };
+		F57AC9C71846F228005E4926 /* sep_ducks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9C61846F228005E4926 /* sep_ducks.jpg */; };
+		F57AC9C91846F2CC005E4926 /* sep_ducks_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9C81846F2CC005E4926 /* sep_ducks_thumb.jpg */; };
+		F57AC9CB1846FEF0005E4926 /* mar_first_birthday_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9CA1846FEF0005E4926 /* mar_first_birthday_thumb.jpg */; };
 		F5A70FB9164EB83E003E0663 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FB8164EB83E003E0663 /* UIKit.framework */; };
 		F5A70FBB164EB83E003E0663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FBA164EB83E003E0663 /* Foundation.framework */; };
 		F5A70FBD164EB83E003E0663 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FBC164EB83E003E0663 /* CoreGraphics.framework */; };
@@ -61,7 +66,6 @@
 		989B4E5C1839C8BE0025FD9E /* jul_ellie_birthday_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_ellie_birthday_thumb.jpg; sourceTree = "<group>"; };
 		989B4E5D1839C8BE0025FD9E /* jul_ellie_birthday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jul_ellie_birthday.jpg; sourceTree = "<group>"; };
 		98F66AA61832DD1500F5B095 /* apr_walking_park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apr_walking_park.jpg; sourceTree = "<group>"; };
-		98F66AA81832DD3A00F5B095 /* mar_first_birthday_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mar_first_birthday_thumb.jpg; sourceTree = "<group>"; };
 		98F66AAC1832DD8900F5B095 /* apr_walking_park_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = apr_walking_park_thumb.jpg; sourceTree = "<group>"; };
 		98F66AB01832DF2000F5B095 /* mar_first_birthday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mar_first_birthday.jpg; sourceTree = "<group>"; };
 		98F66AB21832E0B800F5B095 /* may_comedy_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = may_comedy_thumb.jpg; sourceTree = "<group>"; };
@@ -73,6 +77,12 @@
 		F57AC9B318430733005E4926 /* oct_waving.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_waving.jpg; sourceTree = "<group>"; };
 		F57AC9B618430A96005E4926 /* nov_pigtails_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nov_pigtails_thumb.jpg; sourceTree = "<group>"; };
 		F57AC9B718430A96005E4926 /* nov_pigtails.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nov_pigtails.jpg; sourceTree = "<group>"; };
+		F57AC9BA1846AF48005E4926 /* smooshyface.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = smooshyface.mp4; sourceTree = "<group>"; };
+		F57AC9C21846E30F005E4926 /* aug_dillon_hiking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_dillon_hiking.jpg; sourceTree = "<group>"; };
+		F57AC9C41846E358005E4926 /* aug_dillon_hiking_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aug_dillon_hiking_thumb.jpg; sourceTree = "<group>"; };
+		F57AC9C61846F228005E4926 /* sep_ducks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sep_ducks.jpg; sourceTree = "<group>"; };
+		F57AC9C81846F2CC005E4926 /* sep_ducks_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sep_ducks_thumb.jpg; sourceTree = "<group>"; };
+		F57AC9CA1846FEF0005E4926 /* mar_first_birthday_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mar_first_birthday_thumb.jpg; sourceTree = "<group>"; };
 		F5A70FB4164EB83E003E0663 /* AvieSecondYear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvieSecondYear.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A70FB8164EB83E003E0663 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F5A70FBA164EB83E003E0663 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -164,6 +174,11 @@
 		F5A70FBE164EB83E003E0663 /* AvieSecondYear */ = {
 			isa = PBXGroup;
 			children = (
+				F57AC9C81846F2CC005E4926 /* sep_ducks_thumb.jpg */,
+				F57AC9C61846F228005E4926 /* sep_ducks.jpg */,
+				F57AC9C41846E358005E4926 /* aug_dillon_hiking_thumb.jpg */,
+				F57AC9C21846E30F005E4926 /* aug_dillon_hiking.jpg */,
+				F57AC9BA1846AF48005E4926 /* smooshyface.mp4 */,
 				F57AC9B618430A96005E4926 /* nov_pigtails_thumb.jpg */,
 				F57AC9B718430A96005E4926 /* nov_pigtails.jpg */,
 				F57AC9B218430733005E4926 /* oct_waving_thumb.jpg */,
@@ -184,6 +199,7 @@
 		F5A70FBF164EB83E003E0663 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F57AC9CA1846FEF0005E4926 /* mar_first_birthday_thumb.jpg */,
 				989B4E5C1839C8BE0025FD9E /* jul_ellie_birthday_thumb.jpg */,
 				989B4E5D1839C8BE0025FD9E /* jul_ellie_birthday.jpg */,
 				98F66ABA183490D900F5B095 /* paige_avie_austin.jpg */,
@@ -193,7 +209,6 @@
 				98F66AB31832E0B800F5B095 /* may_comedy.jpg */,
 				98F66AB01832DF2000F5B095 /* mar_first_birthday.jpg */,
 				98F66AAC1832DD8900F5B095 /* apr_walking_park_thumb.jpg */,
-				98F66AA81832DD3A00F5B095 /* mar_first_birthday_thumb.jpg */,
 				98F66AA61832DD1500F5B095 /* apr_walking_park.jpg */,
 				F5F2E052166A7E0F00FD8845 /* default_retina.png */,
 				F5F2E050166A7E0300FD8845 /* default.png */,
@@ -300,11 +315,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F57AC9CB1846FEF0005E4926 /* mar_first_birthday_thumb.jpg in Resources */,
 				F5A70FC3164EB83E003E0663 /* InfoPlist.strings in Resources */,
 				F5A70FCB164EB83F003E0663 /* Default2.png in Resources */,
 				989B4E5E1839C8BE0025FD9E /* jul_ellie_birthday_thumb.jpg in Resources */,
 				F5A70FCD164EB83F003E0663 /* Default@2x.png in Resources */,
 				989B4E5F1839C8BE0025FD9E /* jul_ellie_birthday.jpg in Resources */,
+				F57AC9C51846E358005E4926 /* aug_dillon_hiking_thumb.jpg in Resources */,
 				98F66AB818348D9C00F5B095 /* jun_marigolds_thumb.jpg in Resources */,
 				F57AC9B518430733005E4926 /* oct_waving.jpg in Resources */,
 				F5A70FCF164EB83F003E0663 /* Default-568h@2x.png in Resources */,
@@ -319,13 +336,16 @@
 				F57AC9B818430A96005E4926 /* nov_pigtails_thumb.jpg in Resources */,
 				98F66ABB183490D900F5B095 /* paige_avie_austin.jpg in Resources */,
 				F57AC9B918430A96005E4926 /* nov_pigtails.jpg in Resources */,
-				98F66AAA1832DD3A00F5B095 /* mar_first_birthday_thumb.jpg in Resources */,
 				98F66AA71832DD1500F5B095 /* apr_walking_park.jpg in Resources */,
 				98F66AB11832DF2000F5B095 /* mar_first_birthday.jpg in Resources */,
 				F5F2E053166A7E0F00FD8845 /* default_retina.png in Resources */,
 				98F66AB51832E0B800F5B095 /* may_comedy.jpg in Resources */,
+				F57AC9BB1846AF48005E4926 /* smooshyface.mp4 in Resources */,
 				98F66AB918348D9C00F5B095 /* jun_marigolds.jpg in Resources */,
 				F57AC9B418430733005E4926 /* oct_waving_thumb.jpg in Resources */,
+				F57AC9C31846E30F005E4926 /* aug_dillon_hiking.jpg in Resources */,
+				F57AC9C71846F228005E4926 /* sep_ducks.jpg in Resources */,
+				F57AC9C91846F2CC005E4926 /* sep_ducks_thumb.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

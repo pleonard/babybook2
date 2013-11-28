@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface AvieDetailViewController : UIViewController
+
 @property (strong, nonatomic) NSArray *avieDetailModel;
 @property (strong, nonatomic) NSArray *avieTitleDetailModel;
 @property (strong, nonatomic) NSArray *avieDescriptionDetailModel;
