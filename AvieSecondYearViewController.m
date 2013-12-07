@@ -53,7 +53,7 @@
         @"Avie loves feeding the ducks in Wash Park. ",
         @"Leaving Avie to go to work every morning is hard but watching her wave goodbye is the best send off ever. Even when it's cold out, she comes outside to wave. It's just the best.",
         @"It's exciting to see Avie growing and learning so fast, but sometimes it feels a little too fast. As she grows to become the amazing person we know she is going to be, Mommy and Daddy will always think of Avie as the sweet, smart, funny little girl in pigtails.",
-        @"dec"
+        @"We didn't get much snow in December but Avie quickly learned to make and throw snowballs and to 'hop in the snow'. She looks out the window every morning to see if there is snow."
     ];
 
     // Uncomment the following line to preserve selection between presentations.

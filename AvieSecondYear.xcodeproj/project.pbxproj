@@ -17,6 +17,8 @@
 		98F66AB818348D9C00F5B095 /* jun_marigolds_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66AB618348D9C00F5B095 /* jun_marigolds_thumb.jpg */; };
 		98F66AB918348D9C00F5B095 /* jun_marigolds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66AB718348D9C00F5B095 /* jun_marigolds.jpg */; };
 		98F66ABB183490D900F5B095 /* paige_avie_austin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66ABA183490D900F5B095 /* paige_avie_austin.jpg */; };
+		F54895021853661200324532 /* dec_snowball_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F54895001853661200324532 /* dec_snowball_thumb.jpg */; };
+		F54895031853661200324532 /* dec_snowball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F54895011853661200324532 /* dec_snowball.jpg */; };
 		F57AC9B418430733005E4926 /* oct_waving_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B218430733005E4926 /* oct_waving_thumb.jpg */; };
 		F57AC9B518430733005E4926 /* oct_waving.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B318430733005E4926 /* oct_waving.jpg */; };
 		F57AC9B818430A96005E4926 /* nov_pigtails_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B618430A96005E4926 /* nov_pigtails_thumb.jpg */; };
@@ -45,8 +47,6 @@
 		F5A70FED164EB83F003E0663 /* AvieFirstYearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A70FEC164EB83F003E0663 /* AvieFirstYearTests.m */; };
 		F5A70FF8164EBAE9003E0663 /* AvieSecondYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A70FF7164EBAE9003E0663 /* AvieSecondYearViewController.m */; };
 		F5A7100616501D83003E0663 /* AvieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7100516501D83003E0663 /* AvieDetailViewController.m */; };
-		F5F2E03D165E63B000FD8845 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E035165D3BC900FD8845 /* Default.png */; };
-		F5F2E041166014A200FD8845 /* default_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E040166014A200FD8845 /* default_retina.png */; };
 		F5F2E051166A7E0300FD8845 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E050166A7E0300FD8845 /* default.png */; };
 		F5F2E053166A7E0F00FD8845 /* default_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E052166A7E0F00FD8845 /* default_retina.png */; };
 		F5F9BF3D1659B3B400EAE85C /* family.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F5F9BF3C1659B3B400EAE85C /* family.JPG */; };
@@ -73,6 +73,8 @@
 		98F66AB618348D9C00F5B095 /* jun_marigolds_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jun_marigolds_thumb.jpg; sourceTree = "<group>"; };
 		98F66AB718348D9C00F5B095 /* jun_marigolds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jun_marigolds.jpg; sourceTree = "<group>"; };
 		98F66ABA183490D900F5B095 /* paige_avie_austin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paige_avie_austin.jpg; sourceTree = "<group>"; };
+		F54895001853661200324532 /* dec_snowball_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dec_snowball_thumb.jpg; sourceTree = "<group>"; };
+		F54895011853661200324532 /* dec_snowball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dec_snowball.jpg; sourceTree = "<group>"; };
 		F57AC9B218430733005E4926 /* oct_waving_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_waving_thumb.jpg; sourceTree = "<group>"; };
 		F57AC9B318430733005E4926 /* oct_waving.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_waving.jpg; sourceTree = "<group>"; };
 		F57AC9B618430A96005E4926 /* nov_pigtails_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nov_pigtails_thumb.jpg; sourceTree = "<group>"; };
@@ -108,8 +110,6 @@
 		F5A70FF7164EBAE9003E0663 /* AvieSecondYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AvieSecondYearViewController.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		F5A7100416501D83003E0663 /* AvieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvieDetailViewController.h; sourceTree = "<group>"; };
 		F5A7100516501D83003E0663 /* AvieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AvieDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		F5F2E035165D3BC900FD8845 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		F5F2E040166014A200FD8845 /* default_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_retina.png; sourceTree = "<group>"; };
 		F5F2E050166A7E0300FD8845 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
 		F5F2E052166A7E0F00FD8845 /* default_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_retina.png; sourceTree = "<group>"; };
 		F5F9BF3C1659B3B400EAE85C /* family.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = family.JPG; sourceTree = "<group>"; };
@@ -142,8 +142,6 @@
 		F5A70FA9164EB83E003E0663 = {
 			isa = PBXGroup;
 			children = (
-				F5F2E040166014A200FD8845 /* default_retina.png */,
-				F5F2E035165D3BC900FD8845 /* Default.png */,
 				F5A70FBE164EB83E003E0663 /* AvieSecondYear */,
 				F5A70FE5164EB83F003E0663 /* AvieFirstYearTests */,
 				F5A70FB7164EB83E003E0663 /* Frameworks */,
@@ -174,6 +172,8 @@
 		F5A70FBE164EB83E003E0663 /* AvieSecondYear */ = {
 			isa = PBXGroup;
 			children = (
+				F54895001853661200324532 /* dec_snowball_thumb.jpg */,
+				F54895011853661200324532 /* dec_snowball.jpg */,
 				F57AC9C81846F2CC005E4926 /* sep_ducks_thumb.jpg */,
 				F57AC9C61846F228005E4926 /* sep_ducks.jpg */,
 				F57AC9C41846E358005E4926 /* aug_dillon_hiking_thumb.jpg */,
@@ -291,6 +291,11 @@
 				CLASSPREFIX = AvieSecondYear;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Patrick Leonard";
+				TargetAttributes = {
+					F5A70FB3164EB83E003E0663 = {
+						DevelopmentTeam = X35R53VFV3;
+					};
+				};
 			};
 			buildConfigurationList = F5A70FAE164EB83E003E0663 /* Build configuration list for PBXProject "AvieSecondYear" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -323,14 +328,13 @@
 				989B4E5F1839C8BE0025FD9E /* jul_ellie_birthday.jpg in Resources */,
 				F57AC9C51846E358005E4926 /* aug_dillon_hiking_thumb.jpg in Resources */,
 				98F66AB818348D9C00F5B095 /* jun_marigolds_thumb.jpg in Resources */,
+				F54895031853661200324532 /* dec_snowball.jpg in Resources */,
 				F57AC9B518430733005E4926 /* oct_waving.jpg in Resources */,
 				F5A70FCF164EB83F003E0663 /* Default-568h@2x.png in Resources */,
 				F5A70FD2164EB83F003E0663 /* MainStoryboard_iPhone.storyboard in Resources */,
 				F5A70FD5164EB83F003E0663 /* MainStoryboard_iPad.storyboard in Resources */,
 				98F66AB41832E0B800F5B095 /* may_comedy_thumb.jpg in Resources */,
 				F5F9BF3D1659B3B400EAE85C /* family.JPG in Resources */,
-				F5F2E03D165E63B000FD8845 /* Default.png in Resources */,
-				F5F2E041166014A200FD8845 /* default_retina.png in Resources */,
 				98F66AAD1832DD8900F5B095 /* apr_walking_park_thumb.jpg in Resources */,
 				F5F2E051166A7E0300FD8845 /* default.png in Resources */,
 				F57AC9B818430A96005E4926 /* nov_pigtails_thumb.jpg in Resources */,
@@ -338,6 +342,7 @@
 				F57AC9B918430A96005E4926 /* nov_pigtails.jpg in Resources */,
 				98F66AA71832DD1500F5B095 /* apr_walking_park.jpg in Resources */,
 				98F66AB11832DF2000F5B095 /* mar_first_birthday.jpg in Resources */,
+				F54895021853661200324532 /* dec_snowball_thumb.jpg in Resources */,
 				F5F2E053166A7E0F00FD8845 /* default_retina.png in Resources */,
 				98F66AB51832E0B800F5B095 /* may_comedy.jpg in Resources */,
 				F57AC9BB1846AF48005E4926 /* smooshyface.mp4 in Resources */,
@@ -496,11 +501,14 @@
 		F5A70FF1164EB83F003E0663 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AvieSecondYear/AvieSecondYear-Prefix.pch";
 				INFOPLIST_FILE = "AvieSecondYear/AvieSecondYear-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = AvieSecondYear;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
@@ -509,11 +517,14 @@
 		F5A70FF2164EB83F003E0663 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AvieSecondYear/AvieSecondYear-Prefix.pch";
 				INFOPLIST_FILE = "AvieSecondYear/AvieSecondYear-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = AvieSecondYear;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
