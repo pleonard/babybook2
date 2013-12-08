@@ -17,6 +17,7 @@
 		98F66AB818348D9C00F5B095 /* jun_marigolds_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66AB618348D9C00F5B095 /* jun_marigolds_thumb.jpg */; };
 		98F66AB918348D9C00F5B095 /* jun_marigolds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66AB718348D9C00F5B095 /* jun_marigolds.jpg */; };
 		98F66ABB183490D900F5B095 /* paige_avie_austin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66ABA183490D900F5B095 /* paige_avie_austin.jpg */; };
+		F50CFF4918550CC300F6E82C /* family_cb2_2013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F50CFF4818550CC300F6E82C /* family_cb2_2013.jpg */; };
 		F54895021853661200324532 /* dec_snowball_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F54895001853661200324532 /* dec_snowball_thumb.jpg */; };
 		F54895031853661200324532 /* dec_snowball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F54895011853661200324532 /* dec_snowball.jpg */; };
 		F57AC9B418430733005E4926 /* oct_waving_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B218430733005E4926 /* oct_waving_thumb.jpg */; };
@@ -73,6 +74,7 @@
 		98F66AB618348D9C00F5B095 /* jun_marigolds_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jun_marigolds_thumb.jpg; sourceTree = "<group>"; };
 		98F66AB718348D9C00F5B095 /* jun_marigolds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jun_marigolds.jpg; sourceTree = "<group>"; };
 		98F66ABA183490D900F5B095 /* paige_avie_austin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paige_avie_austin.jpg; sourceTree = "<group>"; };
+		F50CFF4818550CC300F6E82C /* family_cb2_2013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = family_cb2_2013.jpg; sourceTree = "<group>"; };
 		F54895001853661200324532 /* dec_snowball_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dec_snowball_thumb.jpg; sourceTree = "<group>"; };
 		F54895011853661200324532 /* dec_snowball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dec_snowball.jpg; sourceTree = "<group>"; };
 		F57AC9B218430733005E4926 /* oct_waving_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_waving_thumb.jpg; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 		F5A70FBF164EB83E003E0663 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F50CFF4818550CC300F6E82C /* family_cb2_2013.jpg */,
 				F57AC9CA1846FEF0005E4926 /* mar_first_birthday_thumb.jpg */,
 				989B4E5C1839C8BE0025FD9E /* jul_ellie_birthday_thumb.jpg */,
 				989B4E5D1839C8BE0025FD9E /* jul_ellie_birthday.jpg */,
@@ -351,6 +354,7 @@
 				F57AC9C31846E30F005E4926 /* aug_dillon_hiking.jpg in Resources */,
 				F57AC9C71846F228005E4926 /* sep_ducks.jpg in Resources */,
 				F57AC9C91846F2CC005E4926 /* sep_ducks_thumb.jpg in Resources */,
+				F50CFF4918550CC300F6E82C /* family_cb2_2013.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
