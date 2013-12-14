@@ -22,4 +22,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *avieDetailLabel;
 @property (strong, nonatomic) IBOutlet UINavigationItem *avieDetailHeader;
 
+// Movie player
+@property (strong, atomic) MPMoviePlayerController *moviePlayer;
+- (IBAction)playMovie:(id)sender;
+
 @end

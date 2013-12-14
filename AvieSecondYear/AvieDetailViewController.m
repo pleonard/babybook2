@@ -9,6 +9,7 @@
 #import "AvieDetailViewController.h"
 
 @interface AvieDetailViewController ()
+- (IBAction)playMovie:(id)sender;
 
 @end
 
@@ -30,47 +31,46 @@
     _avieDetailPicture.image = [UIImage imageNamed:_avieDetailModel[0]];
     _avieDetailLabel.text = [NSString stringWithString:_avieDescriptionDetailModel[0]];
     _avieDetailHeader.title = [NSString stringWithString:_avieTitleDetailModel[0]];
-/*
-    //test code for video
-    NSString *url = [[NSBundle mainBundle]
-                     pathForResource:@"smooshyface"
-                     ofType:@"mp4"];
-    
-    MPMoviePlayerViewController *playerViewController =
-    [[MPMoviePlayerViewController alloc]
-     initWithContentURL:[NSURL fileURLWithPath:url]];
-    
-    [[NSNotificationCenter defaultCenter]
-     addObserver:self
-     selector:@selector(movieFinishedCallback:)
-     name:MPMoviePlayerPlaybackDidFinishNotification
-     object:[playerViewController moviePlayer]];
-    
-    [self.view addSubview:playerViewController.view];
-    
-    //---play movie---
-    MPMoviePlayerController *player = [playerViewController moviePlayer];
-    [player play];
-    
-    // end test code for video
-*/
+
 }
-/*
-- (void) movieFinishedCallback:(NSNotification*) aNotification {
-    MPMoviePlayerController *player = [aNotification object];
-    [[NSNotificationCenter defaultCenter]
-     removeObserver:self
-     name:MPMoviePlayerPlaybackDidFinishNotification
-     object:player];
-    [player stop];
-//    [self.view removeFromSuperView];
-//    [player autorelease];
-}
-*/
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)playMovie:(id)sender {
+    
+    { NSURL *url = [NSURL URLWithString: @"https://sites.google.com/site/patrickjleonard/videos/oct_smooshy.MOV"];
+        /*
+         
+         { NSURL *url = [NSURL URLWithString: @"http://www.ebookfrenzy.com/ios_book/movie/movie.mov"];
+         */
+        _moviePlayer = [[MPMoviePlayerController alloc]  initWithContentURL:url];
+        
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlayBackDidFinish:)
+            name:MPMoviePlayerPlaybackDidFinishNotification
+            object:_moviePlayer];
+        
+        _moviePlayer.controlStyle = MPMovieControlStyleDefault;
+        _moviePlayer.shouldAutoplay = YES;
+        [self.view addSubview:_moviePlayer.view];
+        [_moviePlayer setFullscreen:YES animated:YES]; }
+    
+}
+
+- (void) moviePlayBackDidFinish:(NSNotification*)notification {
+    MPMoviePlayerController *player = [notification object];
+    
+    [[NSNotificationCenter defaultCenter] removeObserver:self
+        name:MPMoviePlayerPlaybackDidFinishNotification object:player];
+    
+    if ([player
+         respondsToSelector:@selector(setFullscreen:animated:)])
+    {
+        [player.view removeFromSuperview];
+    }
 }
 
 @end

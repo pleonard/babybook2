@@ -37,11 +37,11 @@
     _avieImageSeptember.image = [UIImage imageNamed:@"sep_ducks_thumb.jpg"];
     _avieImageOctober.image = [UIImage imageNamed:@"oct_waving_thumb.jpg"];
     _avieImageNovember.image = [UIImage imageNamed:@"nov_pigtails_thumb.jpg"];
-    _avieImageDecember.image = [UIImage imageNamed:@"dec_thumb.jpg"];
+    _avieImageDecember.image = [UIImage imageNamed:@"dec_snowball_thumb.jpg"];
     
     // create array of images for use in detail view controller
     _avieMonthTitles = @[@"March", @"April", @"May", @"June", @"July", @"August", @"September", @"October", @"November", @"December", @"January", @"February"];
-    _avieImages = @[@"mar_first_birthday.jpg", @"apr_walking_park.jpg", @"may_comedy.jpg", @"jun_marigolds.jpg", @"jul_ellie_birthday.jpg", @"aug_dillon_hiking.jpg", @"sep_ducks.jpg", @"oct_waving.jpg", @"nov_pigtails.jpg", @"dec_.jpg"
+    _avieImages = @[@"mar_first_birthday.jpg", @"apr_walking_park.jpg", @"may_comedy.jpg", @"jun_marigolds.jpg", @"jul_ellie_birthday.jpg", @"aug_dillon_hiking.jpg", @"sep_ducks.jpg", @"oct_waving.jpg", @"nov_pigtails.jpg", @"dec_snowball.jpg"
     ];
     _avieDescriptions = @[
         @"Mommy threw Avie an amazing first birthday party full of family and friends and with the theme of Hungry Little Caterpillar. When it came time for cake, our little health nut tried one bite then went back to her pasta and veggies.",
