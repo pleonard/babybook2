@@ -11,6 +11,7 @@
 @interface AvieSecondYearViewController : UITableViewController
 @property (strong, nonatomic) NSArray *avieMonthTitles;
 @property (strong, nonatomic) NSArray *avieImages;
+@property (strong, nonatomic) NSArray *avieVideos;
 @property (strong, nonatomic) NSArray *avieDescriptions;
 /*
 @property (strong, nonatomic) IBOutlet UIImageView *avieImageMar;

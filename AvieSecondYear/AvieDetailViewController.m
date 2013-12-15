@@ -31,6 +31,8 @@
     _avieDetailPicture.image = [UIImage imageNamed:_avieDetailModel[0]];
     _avieDetailLabel.text = [NSString stringWithString:_avieDescriptionDetailModel[0]];
     _avieDetailHeader.title = [NSString stringWithString:_avieTitleDetailModel[0]];
+//    NSString *videoURL = _avieVideoModel[0];
+//    _moviePlayer.contentURL = [NSURL URLWithString: _avieVideoModel[0]];
 
 }
 
@@ -41,12 +43,12 @@
 }
 
 - (void)playMovie:(id)sender {
-    
+/*
     { NSURL *url = [NSURL URLWithString: @"https://sites.google.com/site/patrickjleonard/videos/oct_smooshy.MOV"];
-        /*
-         
-         { NSURL *url = [NSURL URLWithString: @"http://www.ebookfrenzy.com/ios_book/movie/movie.mov"];
-         */
+*/
+    {
+        NSURL *url = [NSURL URLWithString:_avieVideoModel[0]];
+        
         _moviePlayer = [[MPMoviePlayerController alloc]  initWithContentURL:url];
         
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlayBackDidFinish:)
