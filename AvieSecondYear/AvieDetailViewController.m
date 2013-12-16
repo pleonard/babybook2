@@ -31,8 +31,6 @@
     _avieDetailPicture.image = [UIImage imageNamed:_avieDetailModel[0]];
     _avieDetailLabel.text = [NSString stringWithString:_avieDescriptionDetailModel[0]];
     _avieDetailHeader.title = [NSString stringWithString:_avieTitleDetailModel[0]];
-//    NSString *videoURL = _avieVideoModel[0];
-//    _moviePlayer.contentURL = [NSURL URLWithString: _avieVideoModel[0]];
 
 }
 

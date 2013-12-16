@@ -57,7 +57,7 @@
     ];
 
     // create array of videos for use in detail view controller
-    _avieVideos = @[@"https://sites.google.com/site/patrickjleonard/videos/oct_smooshy.MOV", @"April", @"https://sites.google.com/site/patrickjleonard/videos/may_smooshy.MOV", @"June", @"July", @"August", @"https://sites.google.com/site/patrickjleonard/videos/sep_ducks.MOV", @"October", @"November", @"December", @"January", @"February"];
+    _avieVideos = @[@"https://sites.google.com/site/patrickjleonard/videos/mar_birthday.MOV", @"https://sites.google.com/site/patrickjleonard/videos/apr_walking.mp4", @"https://sites.google.com/site/patrickjleonard/videos/may_smooshy.MOV", @"June", @"https://sites.google.com/site/patrickjleonard/videos/jul_ellie.mp4", @"https://sites.google.com/site/patrickjleonard/videos/aug_hiking.mp4", @"https://sites.google.com/site/patrickjleonard/videos/sep_ducks.MOV", @"October", @"November", @"December", @"January", @"February"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -101,6 +101,7 @@
         row = 1;
         detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
+        detailViewController.avieVideoModel = @[_avieVideos[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
     else if ([[segue identifier] isEqualToString:@"ShowMay"])
@@ -118,6 +119,7 @@
         row = 3;
         detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
+        detailViewController.avieVideoModel = @[_avieVideos[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
     else if ([[segue identifier] isEqualToString:@"ShowJuly"])
@@ -126,6 +128,7 @@
         row = 4;
         detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
+        detailViewController.avieVideoModel = @[_avieVideos[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
     else if ([[segue identifier] isEqualToString:@"ShowAugust"])
@@ -134,6 +137,7 @@
         row = 5;
         detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
+        detailViewController.avieVideoModel = @[_avieVideos[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
     else if ([[segue identifier] isEqualToString:@"ShowSeptember"])
@@ -151,6 +155,7 @@
         row = 7;
         detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
+        detailViewController.avieVideoModel = @[_avieVideos[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
     else if ([[segue identifier] isEqualToString:@"ShowNovember"])
@@ -159,6 +164,7 @@
         row = 8;
         detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
+        detailViewController.avieVideoModel = @[_avieVideos[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
     else if ([[segue identifier] isEqualToString:@"ShowDecember"])
@@ -167,6 +173,7 @@
         row = 9;
         detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
+        detailViewController.avieVideoModel = @[_avieVideos[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
 /*
