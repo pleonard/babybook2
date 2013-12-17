@@ -57,7 +57,7 @@
     ];
 
     // create array of videos for use in detail view controller
-    _avieVideos = @[@"https://sites.google.com/site/patrickjleonard/videos/mar_birthday.MOV", @"https://sites.google.com/site/patrickjleonard/videos/apr_walking.mp4", @"https://sites.google.com/site/patrickjleonard/videos/may_smooshy.MOV", @"June", @"https://sites.google.com/site/patrickjleonard/videos/jul_ellie.mp4", @"https://sites.google.com/site/patrickjleonard/videos/aug_hiking.mp4", @"https://sites.google.com/site/patrickjleonard/videos/sep_ducks.MOV", @"October", @"November", @"December", @"January", @"February"];
+    _avieVideos = @[@"March", @"https://sites.google.com/site/patrickjleonard/videos/apr_walking.mp4", @"https://sites.google.com/site/patrickjleonard/videos/may_smooshy.MOV", @"https://sites.google.com/site/patrickjleonard/videos/jun_summer.mp4", @"https://sites.google.com/site/patrickjleonard/videos/jul_ellie.mp4", @"https://sites.google.com/site/patrickjleonard/videos/aug_hiking.mp4", @"https://sites.google.com/site/patrickjleonard/videos/sep_ducks.MOV", @"https://sites.google.com/site/patrickjleonard/videos/oct_bike.MOV", @"https://sites.google.com/site/patrickjleonard/videos/nov_sidewalk.MOV", @"https://sites.google.com/site/patrickjleonard/videos/dec_ball.MOV", @"January", @"February"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
