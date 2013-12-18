@@ -19,8 +19,8 @@
 		98F66ABB183490D900F5B095 /* paige_avie_austin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 98F66ABA183490D900F5B095 /* paige_avie_austin.jpg */; };
 		F50CFF4918550CC300F6E82C /* family_cb2_2013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F50CFF4818550CC300F6E82C /* family_cb2_2013.jpg */; };
 		F51DC149185D127E00EE7BBA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51DC148185D127E00EE7BBA /* MediaPlayer.framework */; };
-		F54895021853661200324532 /* dec_snowball_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F54895001853661200324532 /* dec_snowball_thumb.jpg */; };
-		F54895031853661200324532 /* dec_snowball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F54895011853661200324532 /* dec_snowball.jpg */; };
+		F551B1E0186168B30071AB8C /* dec_snowball_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F551B1DE186168B30071AB8C /* dec_snowball_thumb.jpg */; };
+		F551B1E1186168B30071AB8C /* dec_snowball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F551B1DF186168B30071AB8C /* dec_snowball.jpg */; };
 		F57AC9B418430733005E4926 /* oct_waving_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B218430733005E4926 /* oct_waving_thumb.jpg */; };
 		F57AC9B518430733005E4926 /* oct_waving.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B318430733005E4926 /* oct_waving.jpg */; };
 		F57AC9B818430A96005E4926 /* nov_pigtails_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B618430A96005E4926 /* nov_pigtails_thumb.jpg */; };
@@ -77,8 +77,8 @@
 		98F66ABA183490D900F5B095 /* paige_avie_austin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paige_avie_austin.jpg; sourceTree = "<group>"; };
 		F50CFF4818550CC300F6E82C /* family_cb2_2013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = family_cb2_2013.jpg; sourceTree = "<group>"; };
 		F51DC148185D127E00EE7BBA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		F54895001853661200324532 /* dec_snowball_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dec_snowball_thumb.jpg; sourceTree = "<group>"; };
-		F54895011853661200324532 /* dec_snowball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dec_snowball.jpg; sourceTree = "<group>"; };
+		F551B1DE186168B30071AB8C /* dec_snowball_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dec_snowball_thumb.jpg; path = ../dec_snowball_thumb.jpg; sourceTree = "<group>"; };
+		F551B1DF186168B30071AB8C /* dec_snowball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dec_snowball.jpg; path = ../dec_snowball.jpg; sourceTree = "<group>"; };
 		F57AC9B218430733005E4926 /* oct_waving_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_waving_thumb.jpg; sourceTree = "<group>"; };
 		F57AC9B318430733005E4926 /* oct_waving.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_waving.jpg; sourceTree = "<group>"; };
 		F57AC9B618430A96005E4926 /* nov_pigtails_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nov_pigtails_thumb.jpg; sourceTree = "<group>"; };
@@ -178,8 +178,8 @@
 		F5A70FBE164EB83E003E0663 /* AvieSecondYear */ = {
 			isa = PBXGroup;
 			children = (
-				F54895001853661200324532 /* dec_snowball_thumb.jpg */,
-				F54895011853661200324532 /* dec_snowball.jpg */,
+				F551B1DE186168B30071AB8C /* dec_snowball_thumb.jpg */,
+				F551B1DF186168B30071AB8C /* dec_snowball.jpg */,
 				F57AC9C81846F2CC005E4926 /* sep_ducks_thumb.jpg */,
 				F57AC9C61846F228005E4926 /* sep_ducks.jpg */,
 				F57AC9C41846E358005E4926 /* aug_dillon_hiking_thumb.jpg */,
@@ -335,21 +335,21 @@
 				989B4E5F1839C8BE0025FD9E /* jul_ellie_birthday.jpg in Resources */,
 				F57AC9C51846E358005E4926 /* aug_dillon_hiking_thumb.jpg in Resources */,
 				98F66AB818348D9C00F5B095 /* jun_marigolds_thumb.jpg in Resources */,
-				F54895031853661200324532 /* dec_snowball.jpg in Resources */,
 				F57AC9B518430733005E4926 /* oct_waving.jpg in Resources */,
 				F5A70FCF164EB83F003E0663 /* Default-568h@2x.png in Resources */,
 				F5A70FD2164EB83F003E0663 /* MainStoryboard_iPhone.storyboard in Resources */,
 				F5A70FD5164EB83F003E0663 /* MainStoryboard_iPad.storyboard in Resources */,
+				F551B1E1186168B30071AB8C /* dec_snowball.jpg in Resources */,
 				98F66AB41832E0B800F5B095 /* may_comedy_thumb.jpg in Resources */,
 				F5F9BF3D1659B3B400EAE85C /* family.JPG in Resources */,
 				98F66AAD1832DD8900F5B095 /* apr_walking_park_thumb.jpg in Resources */,
 				F5F2E051166A7E0300FD8845 /* default.png in Resources */,
 				F57AC9B818430A96005E4926 /* nov_pigtails_thumb.jpg in Resources */,
+				F551B1E0186168B30071AB8C /* dec_snowball_thumb.jpg in Resources */,
 				98F66ABB183490D900F5B095 /* paige_avie_austin.jpg in Resources */,
 				F57AC9B918430A96005E4926 /* nov_pigtails.jpg in Resources */,
 				98F66AA71832DD1500F5B095 /* apr_walking_park.jpg in Resources */,
 				98F66AB11832DF2000F5B095 /* mar_first_birthday.jpg in Resources */,
-				F54895021853661200324532 /* dec_snowball_thumb.jpg in Resources */,
 				F5F2E053166A7E0F00FD8845 /* default_retina.png in Resources */,
 				98F66AB51832E0B800F5B095 /* may_comedy.jpg in Resources */,
 				F57AC9BB1846AF48005E4926 /* smooshyface.mp4 in Resources */,

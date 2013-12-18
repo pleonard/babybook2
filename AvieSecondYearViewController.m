@@ -176,64 +176,7 @@
         detailViewController.avieVideoModel = @[_avieVideos[row]];
         detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
     }
-/*
-    else if ([[segue identifier] isEqualToString:@"ShowAprDetails"])
-    {
-        AvieDetailViewController *detailViewController = [segue destinationViewController];
-        row = 1;
-        detailViewController.avieDetailModel = @[_avieImages[row]];
-        detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
-    }
-    else if ([[segue identifier] isEqualToString:@"ShowMayDetails"])
-    {
-        AvieDetailViewController *detailViewController = [segue destinationViewController];
-        row = 2;
-        detailViewController.avieDetailModel = @[_avieImages[row]];
-        detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
-    }
-    else if ([[segue identifier] isEqualToString:@"ShowJunDetails"])
-    {
-        AvieDetailViewController *detailViewController = [segue destinationViewController];
-        row = 3;
-        detailViewController.avieDetailModel = @[_avieImages[row]];
-        detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
-    }
-    else if ([[segue identifier] isEqualToString:@"ShowJulDetails"])
-    {
-        AvieDetailViewController *detailViewController = [segue destinationViewController];
-        row = 4;
-        detailViewController.avieDetailModel = @[_avieImages[row]];
-        detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
-    }
-    else if ([[segue identifier] isEqualToString:@"ShowAugDetails"])
-    {
-        AvieDetailViewController *detailViewController = [segue destinationViewController];
-        row = 5;
-        detailViewController.avieDetailModel = @[_avieImages[row]];
-        detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
-    }
-    else if ([[segue identifier] isEqualToString:@"ShowSepDetails"])
-    {
-        AvieDetailViewController *detailViewController = [segue destinationViewController];
-        row = 6;
-        detailViewController.avieDetailModel = @[_avieImages[row]];
-        detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
-    }
-    else if ([[segue identifier] isEqualToString:@"ShowOctDetails"])
-    {
-        AvieDetailViewController *detailViewController = [segue destinationViewController];
-        row = 7;
-        detailViewController.avieDetailModel = @[_avieImages[row]];
-        detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
-    }
-    else if ([[segue identifier] isEqualToString:@"ShowNovDetails"])
-    {
-        AvieDetailViewController *detailViewController = [segue destinationViewController];
-        row = 8;
-        detailViewController.avieDetailModel = @[_avieImages[row]];
-        detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
-    }
-*/
+
 }
 
 #pragma mark - Table view data source

@@ -41,9 +41,7 @@
 }
 
 - (void)playMovie:(id)sender {
-/*
-    { NSURL *url = [NSURL URLWithString: @"https://sites.google.com/site/patrickjleonard/videos/oct_smooshy.MOV"];
-*/
+
     {
         NSURL *url = [NSURL URLWithString:_avieVideoModel[0]];
         
