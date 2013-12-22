@@ -20,7 +20,7 @@
 		F50CFF4918550CC300F6E82C /* family_cb2_2013.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F50CFF4818550CC300F6E82C /* family_cb2_2013.jpg */; };
 		F51DC149185D127E00EE7BBA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51DC148185D127E00EE7BBA /* MediaPlayer.framework */; };
 		F551B1E0186168B30071AB8C /* dec_snowball_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F551B1DE186168B30071AB8C /* dec_snowball_thumb.jpg */; };
-		F551B1E1186168B30071AB8C /* dec_snowball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F551B1DF186168B30071AB8C /* dec_snowball.jpg */; };
+		F551B1E31867AECB0071AB8C /* dec_snowball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F551B1E21867AECB0071AB8C /* dec_snowball.jpg */; };
 		F57AC9B418430733005E4926 /* oct_waving_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B218430733005E4926 /* oct_waving_thumb.jpg */; };
 		F57AC9B518430733005E4926 /* oct_waving.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B318430733005E4926 /* oct_waving.jpg */; };
 		F57AC9B818430A96005E4926 /* nov_pigtails_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B618430A96005E4926 /* nov_pigtails_thumb.jpg */; };
@@ -78,7 +78,7 @@
 		F50CFF4818550CC300F6E82C /* family_cb2_2013.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = family_cb2_2013.jpg; sourceTree = "<group>"; };
 		F51DC148185D127E00EE7BBA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		F551B1DE186168B30071AB8C /* dec_snowball_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dec_snowball_thumb.jpg; path = ../dec_snowball_thumb.jpg; sourceTree = "<group>"; };
-		F551B1DF186168B30071AB8C /* dec_snowball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dec_snowball.jpg; path = ../dec_snowball.jpg; sourceTree = "<group>"; };
+		F551B1E21867AECB0071AB8C /* dec_snowball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dec_snowball.jpg; path = ../dec_snowball.jpg; sourceTree = "<group>"; };
 		F57AC9B218430733005E4926 /* oct_waving_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_waving_thumb.jpg; sourceTree = "<group>"; };
 		F57AC9B318430733005E4926 /* oct_waving.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_waving.jpg; sourceTree = "<group>"; };
 		F57AC9B618430A96005E4926 /* nov_pigtails_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nov_pigtails_thumb.jpg; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				F551B1DE186168B30071AB8C /* dec_snowball_thumb.jpg */,
-				F551B1DF186168B30071AB8C /* dec_snowball.jpg */,
+				F551B1E21867AECB0071AB8C /* dec_snowball.jpg */,
 				F57AC9C81846F2CC005E4926 /* sep_ducks_thumb.jpg */,
 				F57AC9C61846F228005E4926 /* sep_ducks.jpg */,
 				F57AC9C41846E358005E4926 /* aug_dillon_hiking_thumb.jpg */,
@@ -339,7 +339,7 @@
 				F5A70FCF164EB83F003E0663 /* Default-568h@2x.png in Resources */,
 				F5A70FD2164EB83F003E0663 /* MainStoryboard_iPhone.storyboard in Resources */,
 				F5A70FD5164EB83F003E0663 /* MainStoryboard_iPad.storyboard in Resources */,
-				F551B1E1186168B30071AB8C /* dec_snowball.jpg in Resources */,
+				F551B1E31867AECB0071AB8C /* dec_snowball.jpg in Resources */,
 				98F66AB41832E0B800F5B095 /* may_comedy_thumb.jpg in Resources */,
 				F5F9BF3D1659B3B400EAE85C /* family.JPG in Resources */,
 				98F66AAD1832DD8900F5B095 /* apr_walking_park_thumb.jpg in Resources */,
