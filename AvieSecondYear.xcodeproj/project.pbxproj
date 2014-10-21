@@ -45,8 +45,6 @@
 		F5A70FE0164EB83F003E0663 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FDF164EB83F003E0663 /* SenTestingKit.framework */; };
 		F5A70FE1164EB83F003E0663 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FB8164EB83E003E0663 /* UIKit.framework */; };
 		F5A70FE2164EB83F003E0663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A70FBA164EB83E003E0663 /* Foundation.framework */; };
-		F5A70FEA164EB83F003E0663 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5A70FE8164EB83F003E0663 /* InfoPlist.strings */; };
-		F5A70FED164EB83F003E0663 /* AvieFirstYearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A70FEC164EB83F003E0663 /* AvieFirstYearTests.m */; };
 		F5A70FF8164EBAE9003E0663 /* AvieSecondYearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A70FF7164EBAE9003E0663 /* AvieSecondYearViewController.m */; };
 		F5A7100616501D83003E0663 /* AvieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A7100516501D83003E0663 /* AvieDetailViewController.m */; };
 		F5F2E051166A7E0300FD8845 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = F5F2E050166A7E0300FD8845 /* default.png */; };
@@ -106,10 +104,6 @@
 		F5A70FD4164EB83F003E0663 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		F5A70FDE164EB83F003E0663 /* AvieSecondYearTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvieSecondYearTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A70FDF164EB83F003E0663 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		F5A70FE7164EB83F003E0663 /* AvieSecondYearTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AvieSecondYearTests-Info.plist"; sourceTree = "<group>"; };
-		F5A70FE9164EB83F003E0663 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F5A70FEB164EB83F003E0663 /* AvieFirstYearTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AvieFirstYearTests.h; sourceTree = "<group>"; };
-		F5A70FEC164EB83F003E0663 /* AvieFirstYearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AvieFirstYearTests.m; sourceTree = "<group>"; };
 		F5A70FF6164EBAE9003E0663 /* AvieSecondYearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AvieSecondYearViewController.h; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		F5A70FF7164EBAE9003E0663 /* AvieSecondYearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AvieSecondYearViewController.m; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		F5A7100416501D83003E0663 /* AvieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvieDetailViewController.h; sourceTree = "<group>"; };
@@ -148,7 +142,6 @@
 			isa = PBXGroup;
 			children = (
 				F5A70FBE164EB83E003E0663 /* AvieSecondYear */,
-				F5A70FE5164EB83F003E0663 /* AvieFirstYearTests */,
 				F5A70FB7164EB83E003E0663 /* Frameworks */,
 				F5A70FB5164EB83E003E0663 /* Products */,
 			);
@@ -231,25 +224,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F5A70FE5164EB83F003E0663 /* AvieFirstYearTests */ = {
-			isa = PBXGroup;
-			children = (
-				F5A70FEB164EB83F003E0663 /* AvieFirstYearTests.h */,
-				F5A70FEC164EB83F003E0663 /* AvieFirstYearTests.m */,
-				F5A70FE6164EB83F003E0663 /* Supporting Files */,
-			);
-			path = AvieFirstYearTests;
-			sourceTree = "<group>";
-		};
-		F5A70FE6164EB83F003E0663 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F5A70FE7164EB83F003E0663 /* AvieSecondYearTests-Info.plist */,
-				F5A70FE8164EB83F003E0663 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -287,7 +261,7 @@
 			name = AvieSecondYearTests;
 			productName = AvieFirstYearTests;
 			productReference = F5A70FDE164EB83F003E0663 /* AvieSecondYearTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -366,7 +340,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5A70FEA164EB83F003E0663 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +377,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5A70FED164EB83F003E0663 /* AvieFirstYearTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,14 +413,6 @@
 				F5A70FD4164EB83F003E0663 /* en */,
 			);
 			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		F5A70FE8164EB83F003E0663 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F5A70FE9164EB83F003E0663 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

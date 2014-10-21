@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="mJx-J8-UHT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A379a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="mJx-J8-UHT">
     <dependencies>
-        <deployment version="1536" defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+        <deployment version="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -77,7 +77,7 @@
             </objects>
             <point key="canvasLocation" x="-73" y="44"/>
         </scene>
-        <!--Avie Second Year View Controller - Avie's Second Year!-->
+        <!--Avie's Second Year!-->
         <scene sceneID="F1W-KU-pXe">
             <objects>
                 <tableViewController id="9DR-IU-qdv" customClass="AvieSecondYearViewController" sceneMemberID="viewController">
@@ -681,7 +681,7 @@
             </objects>
             <point key="canvasLocation" x="329" y="44"/>
         </scene>
-        <!--Avie Detail View Controller - This Month-->
+        <!--This Month-->
         <scene sceneID="jNd-VJ-U75">
             <objects>
                 <viewController id="bEs-gM-LZc" customClass="AvieDetailViewController" sceneMemberID="viewController">
@@ -710,7 +710,6 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WaI-oe-Roq">
                                 <rect key="frame" x="225" y="320" width="75" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Play Movie">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
