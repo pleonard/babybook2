@@ -674,6 +674,8 @@
                         <outlet property="avieImageApril" destination="hsq-FA-lBi" id="q44-Pn-W5E"/>
                         <outlet property="avieImageAugust" destination="KnK-Tn-U8K" id="xDM-a2-JmJ"/>
                         <outlet property="avieImageDecember" destination="8KY-IF-n2M" id="KnK-jT-Oye"/>
+                        <outlet property="avieImageFebruary" destination="cnm-Q5-8Qn" id="O2W-PB-akr"/>
+                        <outlet property="avieImageJanuary" destination="1XQ-RN-ak8" id="zTf-lF-trJ"/>
                         <outlet property="avieImageJuly" destination="Q7K-uu-o0c" id="2lI-6v-EJJ"/>
                         <outlet property="avieImageJune" destination="y3X-h8-waP" id="7TM-Vn-3SE"/>
                         <outlet property="avieImageMarch" destination="iVS-NX-ptj" id="3eu-Ky-uHF"/>

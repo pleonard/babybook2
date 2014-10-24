@@ -38,7 +38,7 @@
     _avieImageOctober.image = [UIImage imageNamed:@"oct_waving_thumb.jpg"];
     _avieImageNovember.image = [UIImage imageNamed:@"nov_pigtails_thumb.jpg"];
     _avieImageDecember.image = [UIImage imageNamed:@"dec_snowball_thumb.jpg"];
-    _avieImageJanuary.image = [UIImage imageNamed:@"may_comedy_thumb.jpg"];
+    _avieImageJanuary.image = [UIImage imageNamed:@"jan_keystone_hallway_thumb.jpg"];
     _avieImageFebruary.image = [UIImage imageNamed:@"feb_science_museum_thumb.jpg"];
     
     // create array of images for use in detail view controller
