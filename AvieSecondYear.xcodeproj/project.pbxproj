@@ -21,6 +21,10 @@
 		F51DC149185D127E00EE7BBA /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F51DC148185D127E00EE7BBA /* MediaPlayer.framework */; };
 		F551B1E0186168B30071AB8C /* dec_snowball_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F551B1DE186168B30071AB8C /* dec_snowball_thumb.jpg */; };
 		F551B1E31867AECB0071AB8C /* dec_snowball.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F551B1E21867AECB0071AB8C /* dec_snowball.jpg */; };
+		F566EACD19F98DAE0003FA05 /* jan_Avie_first_powderday_family.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F566EACB19F98DAE0003FA05 /* jan_Avie_first_powderday_family.JPG */; };
+		F566EACE19F98DAE0003FA05 /* jan_keystone_hallway_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F566EACC19F98DAE0003FA05 /* jan_keystone_hallway_thumb.jpg */; };
+		F566EAD119F99F9B0003FA05 /* feb_science_museum_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F566EACF19F99F9B0003FA05 /* feb_science_museum_thumb.jpg */; };
+		F566EAD219F99F9B0003FA05 /* feb_science_museum.JPG in Resources */ = {isa = PBXBuildFile; fileRef = F566EAD019F99F9B0003FA05 /* feb_science_museum.JPG */; };
 		F57AC9B418430733005E4926 /* oct_waving_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B218430733005E4926 /* oct_waving_thumb.jpg */; };
 		F57AC9B518430733005E4926 /* oct_waving.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B318430733005E4926 /* oct_waving.jpg */; };
 		F57AC9B818430A96005E4926 /* nov_pigtails_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F57AC9B618430A96005E4926 /* nov_pigtails_thumb.jpg */; };
@@ -77,6 +81,10 @@
 		F51DC148185D127E00EE7BBA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		F551B1DE186168B30071AB8C /* dec_snowball_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dec_snowball_thumb.jpg; path = ../dec_snowball_thumb.jpg; sourceTree = "<group>"; };
 		F551B1E21867AECB0071AB8C /* dec_snowball.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dec_snowball.jpg; path = ../dec_snowball.jpg; sourceTree = "<group>"; };
+		F566EACB19F98DAE0003FA05 /* jan_Avie_first_powderday_family.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jan_Avie_first_powderday_family.JPG; sourceTree = "<group>"; };
+		F566EACC19F98DAE0003FA05 /* jan_keystone_hallway_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jan_keystone_hallway_thumb.jpg; sourceTree = "<group>"; };
+		F566EACF19F99F9B0003FA05 /* feb_science_museum_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = feb_science_museum_thumb.jpg; sourceTree = "<group>"; };
+		F566EAD019F99F9B0003FA05 /* feb_science_museum.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = feb_science_museum.JPG; sourceTree = "<group>"; };
 		F57AC9B218430733005E4926 /* oct_waving_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_waving_thumb.jpg; sourceTree = "<group>"; };
 		F57AC9B318430733005E4926 /* oct_waving.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oct_waving.jpg; sourceTree = "<group>"; };
 		F57AC9B618430A96005E4926 /* nov_pigtails_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nov_pigtails_thumb.jpg; sourceTree = "<group>"; };
@@ -178,6 +186,10 @@
 				F57AC9C41846E358005E4926 /* aug_dillon_hiking_thumb.jpg */,
 				F57AC9C21846E30F005E4926 /* aug_dillon_hiking.jpg */,
 				F57AC9BA1846AF48005E4926 /* smooshyface.mp4 */,
+				F566EACF19F99F9B0003FA05 /* feb_science_museum_thumb.jpg */,
+				F566EAD019F99F9B0003FA05 /* feb_science_museum.JPG */,
+				F566EACB19F98DAE0003FA05 /* jan_Avie_first_powderday_family.JPG */,
+				F566EACC19F98DAE0003FA05 /* jan_keystone_hallway_thumb.jpg */,
 				F57AC9B618430A96005E4926 /* nov_pigtails_thumb.jpg */,
 				F57AC9B718430A96005E4926 /* nov_pigtails.jpg */,
 				F57AC9B218430733005E4926 /* oct_waving_thumb.jpg */,
@@ -316,15 +328,18 @@
 				F551B1E31867AECB0071AB8C /* dec_snowball.jpg in Resources */,
 				98F66AB41832E0B800F5B095 /* may_comedy_thumb.jpg in Resources */,
 				F5F9BF3D1659B3B400EAE85C /* family.JPG in Resources */,
+				F566EACD19F98DAE0003FA05 /* jan_Avie_first_powderday_family.JPG in Resources */,
 				98F66AAD1832DD8900F5B095 /* apr_walking_park_thumb.jpg in Resources */,
 				F5F2E051166A7E0300FD8845 /* default.png in Resources */,
 				F57AC9B818430A96005E4926 /* nov_pigtails_thumb.jpg in Resources */,
 				F551B1E0186168B30071AB8C /* dec_snowball_thumb.jpg in Resources */,
+				F566EAD119F99F9B0003FA05 /* feb_science_museum_thumb.jpg in Resources */,
 				98F66ABB183490D900F5B095 /* paige_avie_austin.jpg in Resources */,
 				F57AC9B918430A96005E4926 /* nov_pigtails.jpg in Resources */,
 				98F66AA71832DD1500F5B095 /* apr_walking_park.jpg in Resources */,
 				98F66AB11832DF2000F5B095 /* mar_first_birthday.jpg in Resources */,
 				F5F2E053166A7E0F00FD8845 /* default_retina.png in Resources */,
+				F566EAD219F99F9B0003FA05 /* feb_science_museum.JPG in Resources */,
 				98F66AB51832E0B800F5B095 /* may_comedy.jpg in Resources */,
 				F57AC9BB1846AF48005E4926 /* smooshyface.mp4 in Resources */,
 				98F66AB918348D9C00F5B095 /* jun_marigolds.jpg in Resources */,
@@ -333,6 +348,7 @@
 				F57AC9C71846F228005E4926 /* sep_ducks.jpg in Resources */,
 				F57AC9C91846F2CC005E4926 /* sep_ducks_thumb.jpg in Resources */,
 				F50CFF4918550CC300F6E82C /* family_cb2_2013.jpg in Resources */,
+				F566EACE19F98DAE0003FA05 /* jan_keystone_hallway_thumb.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
