@@ -38,10 +38,12 @@
     _avieImageOctober.image = [UIImage imageNamed:@"oct_waving_thumb.jpg"];
     _avieImageNovember.image = [UIImage imageNamed:@"nov_pigtails_thumb.jpg"];
     _avieImageDecember.image = [UIImage imageNamed:@"dec_snowball_thumb.jpg"];
+    _avieImageJanuary.image = [UIImage imageNamed:@"jan_keystone_hallway_thumb.jpg"];
+    _avieImageFebruary.image = [UIImage imageNamed:@"feb_science_museum_thumb.jpg"];
     
     // create array of images for use in detail view controller
     _avieMonthTitles = @[@"March", @"April", @"May", @"June", @"July", @"August", @"September", @"October", @"November", @"December", @"January", @"February"];
-    _avieImages = @[@"mar_first_birthday.jpg", @"apr_walking_park.jpg", @"may_comedy.jpg", @"jun_marigolds.jpg", @"jul_ellie_birthday.jpg", @"aug_dillon_hiking.jpg", @"sep_ducks.jpg", @"oct_waving.jpg", @"nov_pigtails.jpg", @"dec_snowball.jpg"
+    _avieImages = @[@"mar_first_birthday.jpg", @"apr_walking_park.jpg", @"may_comedy.jpg", @"jun_marigolds.jpg", @"jul_ellie_birthday.jpg", @"aug_dillon_hiking.jpg", @"sep_ducks.jpg", @"oct_waving.jpg", @"nov_pigtails.jpg", @"dec_snowball.jpg", @"jan_Avie_first_powderday_family.JPG", @"feb_science_museum.JPG"
     ];
     _avieDescriptions = @[
         @"Mommy threw Avie an amazing first birthday party full of family and friends. When it came time for cake, our little health nut tried one bite then went back to her pasta and veggies.",
@@ -53,11 +55,13 @@
         @"Mommy and Avie spent many summer days walking to the lake in Wash Park to feed the ducks. Avie loves feeding the ducks in Wash Park. Daddy got to go sometimes too, what a great way to spend the day.",
         @"Leaving Avie to go to work every morning is hard but watching her wave goodbye is the best send off ever. Even when it's cold out, she comes outside to wave. It's just the best.",
         @"It's exciting to see Avie growing and learning so fast, but sometimes it feels a little too fast. Mommy and Daddy will always think of Avie as the sweet, smart, funny little girl in pigtails.",
-        @"We didn't get much snow in December but Avie quickly learned to make and throw snowballs and to 'hop in the snow'. She looks out the window every morning to see if there is snow."
+        @"We didn't get much snow in December but Avie quickly learned to make and throw snowballs and to 'hop in the snow'. She looks out the window every morning to see if there is snow.",
+        @"Avie got her first ski day in the mountains! We were up in Keystone in early Jan and she got her skis on in the village - we were so proud. (her first powder day was on 12/22/13 in the front yard in Wash Park)",
+        @"Daddy & Avie have a special place that we call the 'Science Museum' (Denver Museum of Nature & Science). We see dinosaurs, astronauts, and of course ducks."
     ];
 
     // create array of videos for use in detail view controller
-    _avieVideos = @[@"https://sites.google.com/site/patrickjleonard/videos/mar_birthday.mov", @"https://sites.google.com/site/patrickjleonard/videos/apr_walking.mp4", @"https://sites.google.com/site/patrickjleonard/videos/may_smooshy.MOV", @"https://sites.google.com/site/patrickjleonard/videos/jun_summer.mp4", @"https://sites.google.com/site/patrickjleonard/videos/jul_ellie.mp4", @"https://sites.google.com/site/patrickjleonard/videos/aug_hiking.mp4", @"https://sites.google.com/site/patrickjleonard/videos/sep_ducks.MOV", @"https://sites.google.com/site/patrickjleonard/videos/oct_bike.MOV", @"https://sites.google.com/site/patrickjleonard/videos/nov_sidewalk.MOV", @"https://sites.google.com/site/patrickjleonard/videos/dec_ball.MOV", @"January", @"February"];
+    _avieVideos = @[@"https://sites.google.com/site/patrickjleonard/videos/mar_birthday.mov", @"https://sites.google.com/site/patrickjleonard/videos/apr_walking.mp4", @"https://sites.google.com/site/patrickjleonard/videos/may_smooshy.MOV", @"https://sites.google.com/site/patrickjleonard/videos/jun_summer.mp4", @"https://sites.google.com/site/patrickjleonard/videos/jul_ellie.mp4", @"https://sites.google.com/site/patrickjleonard/videos/aug_hiking.mp4", @"https://sites.google.com/site/patrickjleonard/videos/sep_ducks.MOV", @"https://sites.google.com/site/patrickjleonard/videos/oct_bike.MOV", @"https://sites.google.com/site/patrickjleonard/videos/nov_sidewalk.MOV", @"https://sites.google.com/site/patrickjleonard/videos/dec_ball.MOV", @"https://sites.google.com/site/patrickjleonard/videos/Avie_first_powderday_1.mov", @"https://sites.google.com/site/patrickjleonard/videos/feb_science_museum.mov"];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -171,6 +175,24 @@
     {
         AvieDetailViewController *detailViewController = [segue destinationViewController];
         row = 9;
+        detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
+        detailViewController.avieDetailModel = @[_avieImages[row]];
+        detailViewController.avieVideoModel = @[_avieVideos[row]];
+        detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
+    }
+    else if ([[segue identifier] isEqualToString:@"ShowJanuary"])
+    {
+        AvieDetailViewController *detailViewController = [segue destinationViewController];
+        row = 10;
+        detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
+        detailViewController.avieDetailModel = @[_avieImages[row]];
+        detailViewController.avieVideoModel = @[_avieVideos[row]];
+        detailViewController.avieDescriptionDetailModel = @[_avieDescriptions[row]];
+    }
+    else if ([[segue identifier] isEqualToString:@"ShowFebruary"])
+    {
+        AvieDetailViewController *detailViewController = [segue destinationViewController];
+        row = 11;
         detailViewController.avieTitleDetailModel = @[_avieMonthTitles[row]];
         detailViewController.avieDetailModel = @[_avieImages[row]];
         detailViewController.avieVideoModel = @[_avieVideos[row]];
